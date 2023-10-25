@@ -45,7 +45,7 @@ namespace CapaDatos
                     Alumno.Direccion = dr["Direccion"].ToString();
                     Alumno.Edad = Convert.ToInt32(dr["Edad"]);
                     Alumno.Estado = Convert.ToBoolean(dr["Estado"]);
-                    Alumno.EstaDentro = Convert.ToBoolean(dr["EstaDentro"]);
+                    Alumno.Nivel = dr["Nivel"].ToString();
                     lista.Add(Alumno);
                 }
             }
@@ -86,6 +86,7 @@ namespace CapaDatos
                             Alumno.Edad = Convert.ToInt32(dr["Edad"]);
                             Alumno.Estado = Convert.ToBoolean(dr["Estado"]);
                             Alumno.EstaDentro = Convert.ToBoolean(dr["EstaDentro"]);
+                            Alumno.Nivel = dr["Nivel"].ToString();
                         }
                     }
                 }
@@ -118,6 +119,7 @@ namespace CapaDatos
                 cmd.Parameters.AddWithValue("@Telefono", Alumno.Telefono);
                 cmd.Parameters.AddWithValue("@Direccion", Alumno.Direccion);
                 cmd.Parameters.AddWithValue("@Edad", Alumno.Edad);
+                cmd.Parameters.AddWithValue("@Nivel", Alumno.Nivel);
                 cn.Open();
                 int i = cmd.ExecuteNonQuery();
                 if (i > 0)

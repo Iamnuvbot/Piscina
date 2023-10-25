@@ -17,5 +17,6 @@ namespace CapaEntidad
         public int Edad { get; set; }
         public bool Estado { get; set; }
         public bool EstaDentro { get; set; }
+        public string Nivel { get; set; }
     }
 }

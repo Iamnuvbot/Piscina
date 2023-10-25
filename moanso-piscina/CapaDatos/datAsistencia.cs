@@ -31,8 +31,9 @@ namespace CapaDatos
             {
                 SqlConnection cn = Conexion.Instancia.Conectar(); //singleton
                 cmd = new SqlCommand("spListarAsistenciaAlumno", cn);
+
+                cmd.CommandType = CommandType.StoredProcedure;           
                 cmd.Parameters.AddWithValue("@DNI", dni);
-                cmd.CommandType = CommandType.StoredProcedure;
                 cn.Open();
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())

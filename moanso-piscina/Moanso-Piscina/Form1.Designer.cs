@@ -56,8 +56,6 @@
             this.label_direccion = new System.Windows.Forms.Label();
             this.label_edad = new System.Windows.Forms.Label();
             this.numericUpDown_edad = new System.Windows.Forms.NumericUpDown();
-            this.label15 = new System.Windows.Forms.Label();
-            this.textBox_dni2 = new System.Windows.Forms.TextBox();
             this.numericUpDown_asistencias = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_edad)).BeginInit();
@@ -308,22 +306,6 @@
             this.numericUpDown_edad.Size = new System.Drawing.Size(120, 20);
             this.numericUpDown_edad.TabIndex = 29;
             // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(600, 256);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(64, 13);
-            this.label15.TabIndex = 31;
-            this.label15.Text = "DNI Alumno";
-            // 
-            // textBox_dni2
-            // 
-            this.textBox_dni2.Location = new System.Drawing.Point(603, 284);
-            this.textBox_dni2.Name = "textBox_dni2";
-            this.textBox_dni2.Size = new System.Drawing.Size(122, 20);
-            this.textBox_dni2.TabIndex = 30;
-            // 
             // numericUpDown_asistencias
             // 
             this.numericUpDown_asistencias.Location = new System.Drawing.Point(492, 354);
@@ -337,8 +319,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1006, 479);
             this.Controls.Add(this.numericUpDown_asistencias);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.textBox_dni2);
             this.Controls.Add(this.numericUpDown_edad);
             this.Controls.Add(this.label_edad);
             this.Controls.Add(this.label_direccion);
@@ -407,8 +387,6 @@
         private System.Windows.Forms.Label label_direccion;
         private System.Windows.Forms.Label label_edad;
         private System.Windows.Forms.NumericUpDown numericUpDown_edad;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox textBox_dni2;
         private System.Windows.Forms.NumericUpDown numericUpDown_asistencias;
     }
 }

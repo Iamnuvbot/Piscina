@@ -18,63 +18,39 @@ namespace Moanso_Piscina
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SetTextbox();
             MostrarAlumnos();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            SetTextbox();
-            dataGridView1.DataSource = logAsistenciaAlumnos.Instancia.ListarAsistencias(textBox_dni2.Text);
-        }
-        public void SetTextbox()
-        {
-            if(textBox_nombres.Visible == false)
-            {
-                textBox_nombres.Visible = true;
-                textBox_apellidos.Visible = true;
-                textBox_categoria.Visible = true;
-                textBox_correo.Visible = true;
-                textBox_dni1.Visible = true;
-                numericUpDown_edad.Visible = true;
-                textBox_telefono.Visible = true;
-                textBox_horario.Visible = true;
-                numericUpDown_asistencias.Visible = true;
-                textBox_direccion.Visible = true;
 
-                label_apellidos.Visible = true;
-                label_asistencias.Visible = true;
-                label_categoria.Visible = true;
-                label_correo.Visible = true;
-                label_direccion.Visible = true;
-                label_dni1.Visible = true;
-                label_edad.Visible = true;
-                label_horario.Visible = true;
-                label_nombre.Visible = true;
-                label_telefono.Visible = true;
+            dataGridView1.DataSource = logAsistenciaAlumnos.Instancia.ListarAsistencias(textBox_dni1.Text);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (textBox_dni1.Text.Length < 1)
+            {
+            entAsistenciaAlumnos entAsistenciaAlumnos = new entAsistenciaAlumnos();
+            entAsistenciaAlumnos.AlumnoDNI = textBox_dni1.Text;
+            entAsistenciaAlumnos.HoraEntrada = DateTime.Now.TimeOfDay.ToString();
+            entAsistenciaAlumnos.Fecha = DateTime.Today.ToString();
+            var entAlumno = logAlumno.Instancia.ObtenerAlumno(textBox_dni1.Text);
+            if (entAlumno.EstaDentro != true)
+            {
+                logAsistenciaAlumnos.Instancia.InsertarAsistencia(entAsistenciaAlumnos);
             }
             else
             {
-            textBox_nombres.Visible = false;
-            textBox_apellidos.Visible = false;
-            textBox_categoria.Visible = false;
-            textBox_correo.Visible = false;
-            textBox_dni1.Visible = false;
-            numericUpDown_edad.Visible = false;
-            textBox_telefono.Visible = false;
-            textBox_horario.Visible = false;
-            numericUpDown_asistencias.Visible = false;
-            textBox_direccion.Visible = false;
-                label_apellidos.Visible = false;
-                label_asistencias.Visible = false;
-                label_categoria.Visible = false;
-                label_correo.Visible = false;
-                label_direccion.Visible = false;
-                label_dni1.Visible = false;
-                label_edad.Visible = false;
-                label_horario.Visible = false;
-                label_nombre.Visible = false;
-                label_telefono.Visible = false;
+                logAsistenciaAlumnos.Instancia.InsertarSalida(textBox_dni1.Text, DateTime.Now.TimeOfDay.ToString());
+
+            }
+            dataGridView1.DataSource = logAsistenciaAlumnos.Instancia.ListarAsistencias(textBox_dni1.Text);
+            SetTextBox();
+            }
+            else
+            {
+            MessageBox.Show("Por favor, ingrese todos los datos en los campos.");
             }
 
         }
@@ -98,38 +74,23 @@ namespace Moanso_Piscina
                 return true;
             }
         }
-        private void button2_Click(object sender, EventArgs e)
+        public void SetTextBox()
         {
-            if (textBox_nombres.Visible != true)
-            {
-                entAsistenciaAlumnos entAsistenciaAlumnos = new entAsistenciaAlumnos();
-            entAsistenciaAlumnos.AlumnoDNI = textBox_dni2.Text;
-            entAsistenciaAlumnos.HoraEntrada = DateTime.Now.TimeOfDay.ToString();
-            entAsistenciaAlumnos.Fecha = DateTime.Today.ToString();
-            var entAlumno = logAlumno.Instancia.ObtenerAlumno(textBox_dni2.Text);
-            if (entAlumno.EstaDentro!=true)
-            {
-                logAsistenciaAlumnos.Instancia.InsertarAsistencia(entAsistenciaAlumnos);
-            }
-            else
-            {
-                logAsistenciaAlumnos.Instancia.InsertarSalida(textBox_dni2.Text, DateTime.Now.TimeOfDay.ToString());
-               
-            }
-            dataGridView1.DataSource = logAsistenciaAlumnos.Instancia.ListarAsistencias(textBox_dni2.Text);
-            }
-            else
-            {
-                SetTextbox();
-            }
+            textBox_nombres.Text = "";
+            textBox_apellidos.Text = "";
+            textBox_categoria.Text = "";
+            textBox_correo.Text = "";
+            textBox_dni1.Text = "";
+            numericUpDown_edad.ResetText(); 
+            textBox_telefono.Text = "";
+            textBox_horario.Text = "";
+            numericUpDown_asistencias.ResetText();
+            textBox_direccion.Text = "";
         }
-
         private void button3_Click(object sender, EventArgs e)
         {
-            if(textBox_nombres.Visible == true)
+            if (VerificarTextBox())
             {
-                if (VerificarTextBox())
-                {
             entAlumno entAlumno = new entAlumno();
             entAlumno.Nombre = textBox_nombres.Text;
             entAlumno.Apellido = textBox_apellidos.Text;
@@ -143,18 +104,12 @@ namespace Moanso_Piscina
             entAlumno.Direccion = textBox_direccion.Text;
             logAlumno.Instancia.InsertarAlumno(entAlumno);
             dataGridView1.DataSource = logAlumno.Instancia.ListarAlumnos();
-                }
-                else
-                {
-                    MessageBox.Show("Por favor, ingrese todos los datos en los campos.");
-                }
-
             }
             else
             {
-                SetTextbox();
+                MessageBox.Show("Por favor, ingrese todos los datos en los campos.");
             }
-
+            SetTextBox();
         }
     }
 }

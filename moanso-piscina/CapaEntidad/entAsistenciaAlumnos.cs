@@ -8,7 +8,7 @@ namespace CapaEntidad
 {
     public class entAsistenciaAlumnos
     {
-        public int AlumnoID { get; set; }
+        public string AlumnoDNI { get; set; }
         public string Fecha { get; set; }
         public string HoraEntrada { get; set; }
         public string HoraSalida { get; set; }

@@ -36,10 +36,10 @@ namespace CapaDatos
                 while (dr.Read())
                 {
                     entAlumno Alumno = new entAlumno();
-                    Alumno.idAlumno = Convert.ToInt32(dr["ID"]);
+                    Alumno.DNI = dr["DNI"].ToString();
                     Alumno.Nombre = dr["Nombre"].ToString();
                     Alumno.Apellido = dr["Apellido"].ToString();
-                    Alumno.Categoria = dr["fecRegCliente"].ToString();
+                    Alumno.Categoria = dr["Categoria"].ToString();
                     Alumno.Horario = dr["Horario"].ToString();
                     Alumno.AsistenciasDisponibles = Convert.ToInt32(dr["AsistenciasDisponibles"]);
                     Alumno.Correo = dr["Correo"].ToString();
@@ -56,6 +56,40 @@ namespace CapaDatos
             }
             finally { cmd.Connection.Close(); }
             return lista;
+        }
+        public Boolean InsertarAlumno(entAlumno Alumno)
+        {
+            SqlCommand cmd = null;
+            Boolean inserta = false;
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.Conectar();
+                cmd = new SqlCommand("spRegistrarNuevoAlumno", cn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@DNI", Alumno.DNI);
+                cmd.Parameters.AddWithValue("@Nombre", Alumno.Nombre);
+                cmd.Parameters.AddWithValue("@Apellido", Alumno.Apellido);
+                cmd.Parameters.AddWithValue("@Categoria", Alumno.Categoria);
+                cmd.Parameters.AddWithValue("@Horario", Alumno.Horario);
+                cmd.Parameters.AddWithValue("@AsistenciasDisponibles", Alumno.AsistenciasDisponibles);
+                cmd.Parameters.AddWithValue("@Correo", Alumno.Correo);
+                cmd.Parameters.AddWithValue("@Telefono", Alumno.Telefono);
+                cmd.Parameters.AddWithValue("@Direccion", Alumno.Direccion);
+                cmd.Parameters.AddWithValue("@Edad", Alumno.Edad);
+                cmd.Parameters.AddWithValue("@Estado", Alumno.Estado);
+                cn.Open();
+                int i = cmd.ExecuteNonQuery();
+                if (i > 0)
+                {
+                    inserta = true;
+                }
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+            finally { cmd.Connection.Close(); }
+            return inserta;
         }
         #endregion metodos
     }       

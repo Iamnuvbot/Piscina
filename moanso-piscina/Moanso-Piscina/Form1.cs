@@ -17,16 +17,16 @@ namespace Moanso_Piscina
         public Form1()
         {
             InitializeComponent();
-            ListarAlumnos();
         }
-        public void ListarAlumnos()
+        public void MostrarAlumnos()
         {
-            dataGridView1.DataSource = CapaLogica.logAlumno.Instancia.ListarAlumnos();
+            dataGridView1.DataSource = logAlumno.Instancia.ListarAlumnos();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            MostrarAlumnos();
         }
+
     }
 }

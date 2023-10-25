@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace CapaDatos
 {
-    class datAsistencia
+    public class datAsistencia
     {
         #region sigleton
         private static readonly datAsistencia _instancia = new datAsistencia();
@@ -37,7 +37,7 @@ namespace CapaDatos
                 while (dr.Read())
                 {
                     entAsistenciaAlumnos Asist = new entAsistenciaAlumnos();
-                    Asist.AlumnoID = Convert.ToInt32(dr["AlumnoID"]);
+                    Asist.AlumnoDNI = dr["AlumnoDNI"].ToString();
                     Asist.Fecha = dr["Fecha"].ToString();
                     Asist.HoraEntrada = dr["HoraEntrada"].ToString();
                     Asist.HoraSalida= dr["HoraSalida"].ToString();
@@ -50,6 +50,57 @@ namespace CapaDatos
             }
             finally { cmd.Connection.Close(); }
             return lista;
+        }
+        public Boolean InsertarAsistencia(entAsistenciaAlumnos Alumno)
+        {
+            SqlCommand cmd = null;
+            Boolean inserta = false;
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.Conectar();
+                cmd = new SqlCommand("spRegistrarAsistenciaAlumno", cn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@DNI", Alumno.AlumnoDNI);
+                cmd.Parameters.AddWithValue("@Fecha", Alumno.Fecha);
+                cmd.Parameters.AddWithValue("@HoraEntrada", Alumno.HoraEntrada);
+                cn.Open();
+                int i = cmd.ExecuteNonQuery();
+                if (i > 0)
+                {
+                    inserta = true;
+                }
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+            finally { cmd.Connection.Close(); }
+            return inserta;
+        }
+        public Boolean InsertarSalida(entAsistenciaAlumnos Alumno)
+        {
+            SqlCommand cmd = null;
+            Boolean inserta = false;
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.Conectar();
+                cmd = new SqlCommand("spRegistrarSalidaAlumno", cn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@DNI", Alumno.AlumnoDNI);
+                cmd.Parameters.AddWithValue("@HoraSalida", Alumno.HoraSalida);
+                cn.Open();
+                int i = cmd.ExecuteNonQuery();
+                if (i > 0)
+                {
+                    inserta = true;
+                }
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+            finally { cmd.Connection.Close(); }
+            return inserta;
         }
         #endregion metodos
     }

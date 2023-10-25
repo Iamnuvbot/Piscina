@@ -118,7 +118,6 @@ namespace CapaDatos
                 cmd.Parameters.AddWithValue("@Telefono", Alumno.Telefono);
                 cmd.Parameters.AddWithValue("@Direccion", Alumno.Direccion);
                 cmd.Parameters.AddWithValue("@Edad", Alumno.Edad);
-                cmd.Parameters.AddWithValue("@Estado", Alumno.Estado);
                 cn.Open();
                 int i = cmd.ExecuteNonQuery();
                 if (i > 0)

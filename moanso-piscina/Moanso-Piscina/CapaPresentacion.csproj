@@ -52,6 +52,12 @@
     <Compile Include="Asistencia_Docente.Designer.cs">
       <DependentUpon>Asistencia_Docente.cs</DependentUpon>
     </Compile>
+    <Compile Include="Egresos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Egresos.Designer.cs">
+      <DependentUpon>Egresos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ingreso_Dinero.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +110,12 @@
     </Compile>
     <EmbeddedResource Include="Asistencia_Docente.resx">
       <DependentUpon>Asistencia_Docente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Egresos.resx">
+      <DependentUpon>Egresos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ingreso_Dinero.resx">
+      <DependentUpon>Ingreso_Dinero.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ListaCliente.resx">
       <DependentUpon>ListaCliente.cs</DependentUpon>

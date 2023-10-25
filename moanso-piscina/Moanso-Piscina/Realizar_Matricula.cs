@@ -11,6 +11,7 @@ namespace Moanso_Piscina
         public Realizar_Matricula()
         {
             InitializeComponent();
+            dataGridView_matriculas.DataSource = logAlumno.Instancia.ListarAlumnos();
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)

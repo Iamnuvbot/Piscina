@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Moanso_Piscina
 {
-    public partial class Ingreso_Dinero : Form
+    public partial class Egresos : Form
     {
-        public Ingreso_Dinero()
+        public Egresos()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

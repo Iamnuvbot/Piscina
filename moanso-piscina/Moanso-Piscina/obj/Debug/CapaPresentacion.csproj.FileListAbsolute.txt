@@ -20,3 +20,7 @@ C:\Users\cubac\Source\Repos\Iamnuvbot\Piscina\moanso-piscina\Moanso-Piscina\obj\
 C:\Users\cubac\Source\Repos\Iamnuvbot\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\Moanso_Piscina.Consulta_Boletas.resources
 C:\Users\cubac\Source\Repos\Iamnuvbot\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\Moanso_Piscina.Realizar_Matricula.resources
 C:\Users\cubac\Source\Repos\Iamnuvbot\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\Moanso_Piscina.Registrar_Asistencias_Alumnos.resources
+C:\Users\cubac\Source\Repos\Iamnuvbot\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\Moanso_Piscina.Egresos.resources
+C:\Users\cubac\Source\Repos\Iamnuvbot\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\Moanso_Piscina.Ingreso_Dinero.resources
+C:\Users\cubac\Source\Repos\Iamnuvbot\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\Moanso_Piscina.ListaCliente.resources
+C:\Users\cubac\Source\Repos\Iamnuvbot\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\Moanso_Piscina.Metodo_De_Pago.resources

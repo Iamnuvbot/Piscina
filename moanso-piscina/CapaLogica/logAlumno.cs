@@ -1,4 +1,5 @@
 ﻿using CapaEntidad;
+using CapaDatos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +19,7 @@ namespace CapaLogica
         {
             get
             {
-                return logAlumno.Instancia;
+                return logAlumno._instancia;
             }
         }
         #endregion singleton
@@ -26,10 +27,18 @@ namespace CapaLogica
         ///listado
         public List<entAlumno> ListarAlumnos()
         {
-            return logAlumno.Instancia.ListarAlumnos();
+            return datAlumno.Instancia.ListarAlumnos();
         }
         //insertar
-
+        public void InsertarAlumno(entAlumno alumno)
+        {
+            datAlumno.Instancia.InsertarAlumno(alumno);
+        }
+        //obtener
+        public entAlumno ObtenerAlumno(string dni)
+        {
+            return datAlumno.Instancia.ObtenerAlumno(dni);
+        }
         #endregion metodos
     }
 }

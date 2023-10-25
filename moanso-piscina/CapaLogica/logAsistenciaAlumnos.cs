@@ -21,14 +21,18 @@ namespace CapaLogica
         #endregion singleton
         #region metodos
         ///listado
-        public List<entAsistenciaAlumnos> ListarAsistencias()
+        public List<entAsistenciaAlumnos> ListarAsistencias(string dni)
         {
-            return datAsistencia.Instancia.ListarAsistencias();
+            return datAsistencia.Instancia.ListarAsistencias(dni);
         }
         //insertar
         public void InsertarAsistencia(entAsistenciaAlumnos Asis)
         {
             datAsistencia.Instancia.InsertarAsistencia(Asis);
+        }
+        public void InsertarSalida(string dni,string horaSalida)
+        {
+            datAsistencia.Instancia.InsertarSalida(dni,horaSalida);
         }
         #endregion metodos
     }

@@ -18,19 +18,20 @@ namespace CapaDatos
         {
             get
             {
-                return datAsistencia.Instancia;
+                return datAsistencia._instancia;
             }
         }
         #endregion singleton
         #region metodos
-        public List<entAsistenciaAlumnos> ListarAsistencias()
+        public List<entAsistenciaAlumnos> ListarAsistencias(string dni)
         {
             SqlCommand cmd = null;
             List<entAsistenciaAlumnos> lista = new List<entAsistenciaAlumnos>();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar(); //singleton
-                cmd = new SqlCommand("ListarAsistenciaAlumno", cn);
+                cmd = new SqlCommand("spListarAsistenciaAlumno", cn);
+                cmd.Parameters.AddWithValue("@DNI", dni);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cn.Open();
                 SqlDataReader dr = cmd.ExecuteReader();
@@ -77,7 +78,7 @@ namespace CapaDatos
             finally { cmd.Connection.Close(); }
             return inserta;
         }
-        public Boolean InsertarSalida(entAsistenciaAlumnos Alumno)
+        public Boolean InsertarSalida(string dni,string horaSalida)
         {
             SqlCommand cmd = null;
             Boolean inserta = false;
@@ -86,8 +87,8 @@ namespace CapaDatos
                 SqlConnection cn = Conexion.Instancia.Conectar();
                 cmd = new SqlCommand("spRegistrarSalidaAlumno", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@DNI", Alumno.AlumnoDNI);
-                cmd.Parameters.AddWithValue("@HoraSalida", Alumno.HoraSalida);
+                cmd.Parameters.AddWithValue("@HoraSalida",horaSalida);
+                cmd.Parameters.AddWithValue("@DNI", dni);
                 cn.Open();
                 int i = cmd.ExecuteNonQuery();
                 if (i > 0)

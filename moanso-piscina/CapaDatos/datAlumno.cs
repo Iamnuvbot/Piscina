@@ -3,9 +3,6 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CapaDatos
 {
@@ -36,6 +33,7 @@ namespace CapaDatos
                 while (dr.Read())
                 {
                     entAlumno Alumno = new entAlumno();
+                    Alumno.idAlumno = Convert.ToInt32(dr["ID"]);
                     Alumno.DNI = dr["DNI"].ToString();
                     Alumno.Nombre = dr["Nombre"].ToString();
                     Alumno.Apellido = dr["Apellido"].ToString();
@@ -47,6 +45,7 @@ namespace CapaDatos
                     Alumno.Direccion = dr["Direccion"].ToString();
                     Alumno.Edad = Convert.ToInt32(dr["Edad"]);
                     Alumno.Estado = Convert.ToBoolean(dr["Estado"]);
+                    Alumno.EstaDentro = Convert.ToBoolean(dr["EstaDentro"]);
                     lista.Add(Alumno);
                 }
             }
@@ -57,12 +56,55 @@ namespace CapaDatos
             finally { cmd.Connection.Close(); }
             return lista;
         }
+        public entAlumno ObtenerAlumno(string dni)
+        {
+            entAlumno Alumno = new entAlumno();
+            try
+            {
+                using (SqlConnection cn = Conexion.Instancia.Conectar())
+                using (SqlCommand cmd = new SqlCommand("spObtenerAlumno", cn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@AlumnoDNI", dni);
+
+                    cn.Open();
+
+                    using (SqlDataReader dr = cmd.ExecuteReader())
+                    {
+                        while (dr.Read())
+                        {
+                           
+                            Alumno.DNI = dr["DNI"].ToString();
+                            Alumno.Nombre = dr["Nombre"].ToString();
+                            Alumno.Apellido = dr["Apellido"].ToString();
+                            Alumno.Categoria = dr["Categoria"].ToString();
+                            Alumno.Horario = dr["Horario"].ToString();
+                            Alumno.AsistenciasDisponibles = Convert.ToInt32(dr["AsistenciasDisponibles"]);
+                            Alumno.Correo = dr["Correo"].ToString();
+                            Alumno.Telefono = dr["Telefono"].ToString();
+                            Alumno.Direccion = dr["Direccion"].ToString();
+                            Alumno.Edad = Convert.ToInt32(dr["Edad"]);
+                            Alumno.Estado = Convert.ToBoolean(dr["Estado"]);
+                            Alumno.EstaDentro = Convert.ToBoolean(dr["EstaDentro"]);
+                        }
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+
+            return Alumno;
+        }
+
         public Boolean InsertarAlumno(entAlumno Alumno)
         {
             SqlCommand cmd = null;
             Boolean inserta = false;
             try
             {
+
                 SqlConnection cn = Conexion.Instancia.Conectar();
                 cmd = new SqlCommand("spRegistrarNuevoAlumno", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -92,5 +134,5 @@ namespace CapaDatos
             return inserta;
         }
         #endregion metodos
-    }       
+    }
 }

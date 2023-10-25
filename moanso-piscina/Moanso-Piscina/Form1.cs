@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CapaLogica;
+using CapaEntidad;
 
 namespace Moanso_Piscina
 {
@@ -15,6 +17,11 @@ namespace Moanso_Piscina
         public Form1()
         {
             InitializeComponent();
+            ListarAlumnos();
+        }
+        public void ListarAlumnos()
+        {
+            dataGridView1.DataSource = CapaLogica.logAlumno.Instancia.ListarAlumnos();
         }
 
         private void button1_Click(object sender, EventArgs e)

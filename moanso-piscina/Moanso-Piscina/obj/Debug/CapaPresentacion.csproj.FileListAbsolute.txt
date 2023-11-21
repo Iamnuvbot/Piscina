@@ -52,3 +52,6 @@ C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\
 C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\Moanso-Piscina.pdb
 C:\Users\JeanN - G\source\repos\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\Moanso_Piscina.Ingreso_Monetario.resources
 C:\Users\JeanN - G\source\repos\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\Moanso_Piscina.Realiza_Matricula.resources
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Nueva carpeta\moanso-piscina\Moanso-Piscina\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Nueva carpeta\moanso-piscina\Moanso-Piscina\obj\Debug\Moanso-Piscina.exe
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Nueva carpeta\moanso-piscina\Moanso-Piscina\obj\Debug\Moanso-Piscina.pdb

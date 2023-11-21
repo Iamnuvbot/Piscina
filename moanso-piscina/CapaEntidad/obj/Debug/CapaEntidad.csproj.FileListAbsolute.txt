@@ -10,3 +10,9 @@ C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\CapaEntidad\obj\Debug\Cap
 C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
 C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\CapaEntidad\obj\Debug\CapaEntidad.dll
 C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Nueva carpeta\moanso-piscina\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Nueva carpeta\moanso-piscina\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Nueva carpeta\moanso-piscina\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Nueva carpeta\moanso-piscina\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Nueva carpeta\moanso-piscina\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Nueva carpeta\moanso-piscina\CapaEntidad\obj\Debug\CapaEntidad.pdb

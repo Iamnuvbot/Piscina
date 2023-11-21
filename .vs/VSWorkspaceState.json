@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\moanso-piscina",
+    "\\moanso-piscina\\Moanso-Piscina"
   ],
-  "SelectedNode": "\\Moanso-Piscina.sln",
+  "SelectedNode": "\\moanso-piscina\\Moanso-Piscina\\Realiza_Matricula.cs",
   "PreviewInSolutionExplorer": false
 }

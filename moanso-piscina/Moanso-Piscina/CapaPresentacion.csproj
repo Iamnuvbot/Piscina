@@ -94,7 +94,9 @@
     <Compile Include="Metodo_De_Pago.Designer.cs">
       <DependentUpon>Metodo_De_Pago.cs</DependentUpon>
     </Compile>
-    <Compile Include="RealizarPago.cs" />
+    <Compile Include="RealizarPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="RealizarPago.Designer.cs">
       <DependentUpon>RealizarPago.cs</DependentUpon>
     </Compile>

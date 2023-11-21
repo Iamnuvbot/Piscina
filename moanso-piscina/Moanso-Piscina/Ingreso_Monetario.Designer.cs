@@ -36,6 +36,7 @@
             this.btnAplicarObs = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnSalir = new System.Windows.Forms.Button();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBoletasDiarias)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -51,7 +52,7 @@
             // btnMostrarBoletasD
             // 
             this.btnMostrarBoletasD.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.btnMostrarBoletasD.Location = new System.Drawing.Point(683, 33);
+            this.btnMostrarBoletasD.Location = new System.Drawing.Point(681, 33);
             this.btnMostrarBoletasD.Name = "btnMostrarBoletasD";
             this.btnMostrarBoletasD.Size = new System.Drawing.Size(171, 76);
             this.btnMostrarBoletasD.TabIndex = 1;
@@ -88,7 +89,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(427, 229);
+            this.pictureBox1.Location = new System.Drawing.Point(416, 235);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(224, 224);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -107,11 +108,20 @@
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
             // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.dateTimePicker1.Location = new System.Drawing.Point(606, 184);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(246, 26);
+            this.dateTimePicker1.TabIndex = 9;
+            // 
             // Ingreso_Monetario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(864, 471);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnAplicarObs);
             this.Controls.Add(this.label1);
@@ -137,5 +147,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnAplicarObs;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }

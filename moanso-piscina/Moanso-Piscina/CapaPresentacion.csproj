@@ -64,6 +64,12 @@
     <Compile Include="Ingreso_Dinero.Designer.cs">
       <DependentUpon>Ingreso_Dinero.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ingreso_Monetario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ingreso_Monetario.Designer.cs">
+      <DependentUpon>Ingreso_Monetario.cs</DependentUpon>
+    </Compile>
     <Compile Include="ListaCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +87,12 @@
     </Compile>
     <Compile Include="Metodo_De_Pago.Designer.cs">
       <DependentUpon>Metodo_De_Pago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Realiza_Matricula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Realiza_Matricula.Designer.cs">
+      <DependentUpon>Realiza_Matricula.cs</DependentUpon>
     </Compile>
     <Compile Include="Registrar_Asistencias_Alumnos.cs">
       <SubType>Form</SubType>
@@ -117,6 +129,9 @@
     <EmbeddedResource Include="Ingreso_Dinero.resx">
       <DependentUpon>Ingreso_Dinero.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Ingreso_Monetario.resx">
+      <DependentUpon>Ingreso_Monetario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ListaCliente.resx">
       <DependentUpon>ListaCliente.cs</DependentUpon>
     </EmbeddedResource>
@@ -143,6 +158,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Realizar_Matricula.resx">
       <DependentUpon>Realizar_Matricula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Realiza_Matricula.resx">
+      <DependentUpon>Realiza_Matricula.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Registrar_Asistencias_Alumnos.resx">
       <DependentUpon>Registrar_Asistencias_Alumnos.cs</DependentUpon>

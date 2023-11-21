@@ -24,3 +24,31 @@ C:\Users\cubac\Source\Repos\Iamnuvbot\Piscina\moanso-piscina\Moanso-Piscina\obj\
 C:\Users\cubac\Source\Repos\Iamnuvbot\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\Moanso_Piscina.Ingreso_Dinero.resources
 C:\Users\cubac\Source\Repos\Iamnuvbot\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\Moanso_Piscina.ListaCliente.resources
 C:\Users\cubac\Source\Repos\Iamnuvbot\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\Moanso_Piscina.Metodo_De_Pago.resources
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\Moanso-Piscina\bin\Debug\Moanso-Piscina.exe.config
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\Moanso-Piscina\bin\Debug\Moanso-Piscina.exe
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\Moanso-Piscina\bin\Debug\Moanso-Piscina.pdb
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\Moanso-Piscina\bin\Debug\CapaEntidad.dll
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\Moanso-Piscina\bin\Debug\CapaLogica.dll
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\Moanso-Piscina\bin\Debug\CapaDatos.dll
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\Moanso-Piscina\bin\Debug\CapaEntidad.pdb
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\Moanso-Piscina\bin\Debug\CapaLogica.pdb
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\Moanso-Piscina\bin\Debug\CapaDatos.pdb
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\Moanso_Piscina.Asistencia_Docente.resources
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\Moanso_Piscina.Egresos.resources
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\Moanso_Piscina.Ingreso_Dinero.resources
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\Moanso_Piscina.ListaCliente.resources
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\Moanso_Piscina.Menu.resources
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\Moanso_Piscina.Metodo_De_Pago.resources
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\Moanso_Piscina.RealizarPago.resources
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\Moanso_Piscina.Properties.Resources.resources
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\Moanso_Piscina.Consulta_Boletas.resources
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\Moanso_Piscina.Realizar_Matricula.resources
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\Moanso_Piscina.Registrar_Asistencias_Alumnos.resources
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\Moanso-Piscina.exe
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\Moanso-Piscina.pdb
+C:\Users\JeanN - G\source\repos\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\Moanso_Piscina.Ingreso_Monetario.resources
+C:\Users\JeanN - G\source\repos\Piscina\moanso-piscina\Moanso-Piscina\obj\Debug\Moanso_Piscina.Realiza_Matricula.resources

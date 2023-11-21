@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Moanso_Piscina
 {
-    public partial class Asistencia_Docente : Form
+    public partial class Registrar_Asistencias_Docente : Form
     {
-        public Asistencia_Docente()
+        public Registrar_Asistencias_Docente()
         {
             InitializeComponent();
         }

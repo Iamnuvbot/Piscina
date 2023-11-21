@@ -1,7 +1,7 @@
 ﻿
 namespace Moanso_Piscina
 {
-    partial class Asistencia_Docente
+    partial class Registrar_Asistencias_Docente
     {
         /// <summary>
         /// Required designer variable.

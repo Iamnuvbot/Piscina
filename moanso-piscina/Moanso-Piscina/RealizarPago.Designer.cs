@@ -55,20 +55,18 @@ namespace Moanso_Piscina
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(11, 124);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.comboBox1.Location = new System.Drawing.Point(8, 101);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(160, 24);
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 0;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(8, 104);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(6, 84);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(108, 16);
+            this.label1.Size = new System.Drawing.Size(86, 13);
             this.label1.TabIndex = 6;
             this.label1.Text = "Metodo de Pago";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -76,53 +74,51 @@ namespace Moanso_Piscina
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(533, 24);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(293, 22);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(30, 16);
+            this.label4.Size = new System.Drawing.Size(26, 13);
             this.label4.TabIndex = 9;
             this.label4.Text = "DNI";
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(13, 176);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox3.Location = new System.Drawing.Point(10, 143);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(184, 22);
+            this.textBox3.Size = new System.Drawing.Size(139, 20);
             this.textBox3.TabIndex = 17;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(8, 156);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(6, 127);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(44, 16);
+            this.label9.Size = new System.Drawing.Size(37, 13);
             this.label9.TabIndex = 18;
             this.label9.Text = "Monto";
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(536, 44);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox4.Location = new System.Drawing.Point(295, 38);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(184, 22);
+            this.textBox4.Size = new System.Drawing.Size(139, 20);
             this.textBox4.TabIndex = 19;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(536, 90);
+            this.dataGridView1.Location = new System.Drawing.Point(295, 75);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(617, 188);
+            this.dataGridView1.Size = new System.Drawing.Size(463, 153);
             this.dataGridView1.TabIndex = 25;
             // 
             // label11
             // 
-            this.label11.Location = new System.Drawing.Point(533, 70);
+            this.label11.Location = new System.Drawing.Point(293, 59);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(41, 17);
+            this.label11.Size = new System.Drawing.Size(31, 14);
             this.label11.TabIndex = 26;
             this.label11.Text = "Perfil";
             this.label11.Click += new System.EventHandler(this.label11_Click);
@@ -130,43 +126,48 @@ namespace Moanso_Piscina
             // dataGridView2
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(536, 312);
+            this.dataGridView2.Location = new System.Drawing.Point(295, 256);
+            this.dataGridView2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
-            this.dataGridView2.Size = new System.Drawing.Size(617, 200);
+            this.dataGridView2.Size = new System.Drawing.Size(463, 162);
             this.dataGridView2.TabIndex = 28;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(533, 288);
+            this.label3.Location = new System.Drawing.Point(293, 236);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(107, 16);
+            this.label3.Size = new System.Drawing.Size(84, 13);
             this.label3.TabIndex = 29;
             this.label3.Text = "Boletas de pago";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(5, 223);
+            this.dateTimePicker1.Location = new System.Drawing.Point(4, 181);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(241, 22);
+            this.dateTimePicker1.Size = new System.Drawing.Size(182, 20);
             this.dateTimePicker1.TabIndex = 30;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(10, 202);
+            this.label10.Location = new System.Drawing.Point(8, 164);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(45, 16);
+            this.label10.Size = new System.Drawing.Size(37, 13);
             this.label10.TabIndex = 31;
             this.label10.Text = "Fecha";
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(727, 36);
+            this.button3.Location = new System.Drawing.Point(438, 31);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(70, 29);
+            this.button3.Size = new System.Drawing.Size(52, 24);
             this.button3.TabIndex = 32;
             this.button3.Text = "Buscar";
             this.button3.UseVisualStyleBackColor = true;
@@ -175,10 +176,9 @@ namespace Moanso_Piscina
             // 
             this.button4.Image = global::Moanso_Piscina.Properties.Resources.Check_16x16;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button4.Location = new System.Drawing.Point(5, 440);
-            this.button4.Margin = new System.Windows.Forms.Padding(4);
+            this.button4.Location = new System.Drawing.Point(4, 358);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(171, 42);
+            this.button4.Size = new System.Drawing.Size(128, 34);
             this.button4.TabIndex = 35;
             this.button4.Text = "Consultar Boletas por fecha";
             this.button4.UseVisualStyleBackColor = true;
@@ -188,10 +188,9 @@ namespace Moanso_Piscina
             // 
             this.button2.Image = global::Moanso_Piscina.Properties.Resources.X_25x25;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.Location = new System.Drawing.Point(5, 390);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Location = new System.Drawing.Point(4, 317);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(140, 42);
+            this.button2.Size = new System.Drawing.Size(105, 34);
             this.button2.TabIndex = 4;
             this.button2.Text = "Anular Boleta";
             this.button2.UseVisualStyleBackColor = true;
@@ -200,10 +199,9 @@ namespace Moanso_Piscina
             // 
             this.button1.Image = global::Moanso_Piscina.Properties.Resources.Check_16x16;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.Location = new System.Drawing.Point(5, 327);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Location = new System.Drawing.Point(4, 266);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(146, 42);
+            this.button1.Size = new System.Drawing.Size(110, 34);
             this.button1.TabIndex = 2;
             this.button1.Text = "Generar Boleta";
             this.button1.UseVisualStyleBackColor = true;
@@ -212,27 +210,27 @@ namespace Moanso_Piscina
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(2, 274);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(2, 223);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(87, 16);
+            this.label5.Size = new System.Drawing.Size(69, 13);
             this.label5.TabIndex = 11;
             this.label5.Text = "Tipo Servicio";
             // 
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(96, 271);
+            this.comboBox2.Location = new System.Drawing.Point(72, 220);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(101, 24);
+            this.comboBox2.Size = new System.Drawing.Size(77, 21);
             this.comboBox2.TabIndex = 37;
             // 
             // RealizarPago
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Cornsilk;
-            this.ClientSize = new System.Drawing.Size(1185, 556);
+            this.ClientSize = new System.Drawing.Size(785, 452);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -252,7 +250,6 @@ namespace Moanso_Piscina
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "RealizarPago";
             this.Text = "Boleta de Pago";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

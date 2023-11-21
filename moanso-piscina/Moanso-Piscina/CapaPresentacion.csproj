@@ -58,12 +58,6 @@
     <Compile Include="Egresos.Designer.cs">
       <DependentUpon>Egresos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Ingreso_Dinero.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Ingreso_Dinero.Designer.cs">
-      <DependentUpon>Ingreso_Dinero.cs</DependentUpon>
-    </Compile>
     <Compile Include="Ingreso_Monetario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,12 +94,6 @@
     <Compile Include="Registrar_Asistencias_Alumnos.Designer.cs">
       <DependentUpon>Registrar_Asistencias_Alumnos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Realizar_Matricula.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Realizar_Matricula.Designer.cs">
-      <DependentUpon>Realizar_Matricula.cs</DependentUpon>
-    </Compile>
     <Compile Include="RealizarPago.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,9 +113,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Egresos.resx">
       <DependentUpon>Egresos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Ingreso_Dinero.resx">
-      <DependentUpon>Ingreso_Dinero.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ingreso_Monetario.resx">
       <DependentUpon>Ingreso_Monetario.cs</DependentUpon>
@@ -152,12 +137,10 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Consulta_Boletas.resx">
       <DependentUpon>Consulta_Boletas.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Realizar_Matricula.resx">
-      <DependentUpon>Realizar_Matricula.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Realiza_Matricula.resx">
       <DependentUpon>Realiza_Matricula.cs</DependentUpon>
@@ -187,6 +170,33 @@
       <Project>{1cca3449-ff31-45af-b50b-97e6bfe18d35}</Project>
       <Name>CapaLogica</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_Olimpica.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salida.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Perfil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Perfil1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Check 16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X 25x25.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

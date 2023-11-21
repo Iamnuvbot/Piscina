@@ -30,20 +30,22 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Realiza_Matricula));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnHorarios = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.label3 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnBuscarPerfil = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label5 = new System.Windows.Forms.Label();
+            this.btnBuscarPerfil = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.btnHorarios = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -56,16 +58,6 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(730, 114);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // btnHorarios
-            // 
-            this.btnHorarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.btnHorarios.Location = new System.Drawing.Point(18, 114);
-            this.btnHorarios.Name = "btnHorarios";
-            this.btnHorarios.Size = new System.Drawing.Size(227, 70);
-            this.btnHorarios.TabIndex = 2;
-            this.btnHorarios.Text = "Verificar Horario Disponibles";
-            this.btnHorarios.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -98,9 +90,11 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.button2.Location = new System.Drawing.Point(18, 572);
+            this.button2.Image = global::Moanso_Piscina.Properties.Resources.X_25x25;
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button2.Location = new System.Drawing.Point(7, 590);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(214, 54);
+            this.button2.Size = new System.Drawing.Size(213, 38);
             this.button2.TabIndex = 8;
             this.button2.Text = "Anular Matrícula";
             this.button2.UseVisualStyleBackColor = true;
@@ -114,16 +108,6 @@
             this.button3.TabIndex = 9;
             this.button3.Text = "Verificar Disponibilidad de Servicios";
             this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.button5.Location = new System.Drawing.Point(12, 219);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(233, 75);
-            this.button5.TabIndex = 13;
-            this.button5.Text = "Verifica Pago";
-            this.button5.UseVisualStyleBackColor = true;
             // 
             // comboBox1
             // 
@@ -141,7 +125,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(285, 141);
+            this.textBox1.Location = new System.Drawing.Point(274, 141);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(122, 20);
             this.textBox1.TabIndex = 15;
@@ -164,19 +148,9 @@
             this.label2.TabIndex = 17;
             this.label2.Text = "PERFIL";
             // 
-            // btnBuscarPerfil
-            // 
-            this.btnBuscarPerfil.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.btnBuscarPerfil.Location = new System.Drawing.Point(202, 411);
-            this.btnBuscarPerfil.Name = "btnBuscarPerfil";
-            this.btnBuscarPerfil.Size = new System.Drawing.Size(214, 54);
-            this.btnBuscarPerfil.TabIndex = 18;
-            this.btnBuscarPerfil.Text = "Buscar Perfil";
-            this.btnBuscarPerfil.UseVisualStyleBackColor = true;
-            // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(74, 430);
+            this.textBox2.Location = new System.Drawing.Point(74, 336);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(122, 20);
             this.textBox2.TabIndex = 19;
@@ -185,18 +159,73 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(8, 428);
+            this.label4.Location = new System.Drawing.Point(9, 334);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(40, 20);
             this.label4.TabIndex = 20;
             this.label4.Text = "DNI";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.dateTimePicker1.Location = new System.Drawing.Point(7, 493);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(330, 26);
+            this.dateTimePicker1.TabIndex = 21;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label5.Location = new System.Drawing.Point(9, 464);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(165, 20);
+            this.label5.TabIndex = 22;
+            this.label5.Text = "Fecha de Consulta:";
+            // 
+            // btnBuscarPerfil
+            // 
+            this.btnBuscarPerfil.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.btnBuscarPerfil.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscarPerfil.Image")));
+            this.btnBuscarPerfil.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnBuscarPerfil.Location = new System.Drawing.Point(237, 285);
+            this.btnBuscarPerfil.Name = "btnBuscarPerfil";
+            this.btnBuscarPerfil.Size = new System.Drawing.Size(149, 119);
+            this.btnBuscarPerfil.TabIndex = 18;
+            this.btnBuscarPerfil.Text = "Buscar Perfil";
+            this.btnBuscarPerfil.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.button5.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button5.Image = global::Moanso_Piscina.Properties.Resources.Check_16x16;
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button5.Location = new System.Drawing.Point(18, 246);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(202, 39);
+            this.button5.TabIndex = 13;
+            this.button5.Text = "Verifica Pago";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // btnHorarios
+            // 
+            this.btnHorarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.btnHorarios.Location = new System.Drawing.Point(18, 118);
+            this.btnHorarios.Name = "btnHorarios";
+            this.btnHorarios.Size = new System.Drawing.Size(227, 63);
+            this.btnHorarios.TabIndex = 2;
+            this.btnHorarios.Text = "Verificar Horario Disponibles";
+            this.btnHorarios.UseVisualStyleBackColor = true;
             // 
             // Realiza_Matricula
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Cornsilk;
-            this.ClientSize = new System.Drawing.Size(1195, 638);
+            this.ClientSize = new System.Drawing.Size(1208, 640);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.btnBuscarPerfil);
@@ -240,5 +269,7 @@
         private System.Windows.Forms.Button btnBuscarPerfil;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label label5;
     }
 }

@@ -33,7 +33,7 @@ namespace Moanso_Piscina
             this.label_asistencia = new System.Windows.Forms.Label();
             this.dataGridView_asistencias = new System.Windows.Forms.DataGridView();
             this.label_dni1 = new System.Windows.Forms.Label();
-            this.textBox_dni1 = new System.Windows.Forms.TextBox();
+            this.textDNI = new System.Windows.Forms.TextBox();
             this.button4 = new System.Windows.Forms.Button();
             this.label_listarAsis = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_asistencias)).BeginInit();
@@ -76,12 +76,13 @@ namespace Moanso_Piscina
             this.label_dni1.TabIndex = 33;
             this.label_dni1.Text = "DNI Alumno";
             // 
-            // textBox_dni1
+            // textDNI
             // 
-            this.textBox_dni1.Location = new System.Drawing.Point(42, 63);
-            this.textBox_dni1.Name = "textBox_dni1";
-            this.textBox_dni1.Size = new System.Drawing.Size(100, 20);
-            this.textBox_dni1.TabIndex = 32;
+            this.textDNI.Location = new System.Drawing.Point(42, 63);
+            this.textDNI.Name = "textDNI";
+            this.textDNI.Size = new System.Drawing.Size(100, 20);
+            this.textDNI.TabIndex = 32;
+            this.textDNI.TextChanged += new System.EventHandler(this.textDNI_TextChanged);
             // 
             // button4
             // 
@@ -111,7 +112,7 @@ namespace Moanso_Piscina
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label_listarAsis);
             this.Controls.Add(this.label_dni1);
-            this.Controls.Add(this.textBox_dni1);
+            this.Controls.Add(this.textDNI);
             this.Controls.Add(this.dataGridView_asistencias);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label_asistencia);
@@ -129,7 +130,7 @@ namespace Moanso_Piscina
         private System.Windows.Forms.Label label_asistencia;
         private System.Windows.Forms.DataGridView dataGridView_asistencias;
         private System.Windows.Forms.Label label_dni1;
-        private System.Windows.Forms.TextBox textBox_dni1;
+        private System.Windows.Forms.TextBox textDNI;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label_listarAsis;
     }

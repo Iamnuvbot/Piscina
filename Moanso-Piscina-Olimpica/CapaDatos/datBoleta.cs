@@ -45,18 +45,16 @@ namespace CapaDatos
             }
             return boletas;
         }
-        public void AnularBoleta(int ID)
+        public void AnularBoleta(string Fecha)
         {
-            for (int i = boletasLista.Count - 1; i >= 0; i--)
+            foreach(entBoleta boleta in boletasLista)
             {
-                entBoleta boleta = boletasLista[i];
-                if (boleta.idBoleta == ID)
+                if(boleta.Fecha == Fecha)
                 {
-                    boletasLista.RemoveAt(i);
+                    boletasLista.Remove(boleta);
                 }
             }
         }
-
         #endregion metodos
     }
 }

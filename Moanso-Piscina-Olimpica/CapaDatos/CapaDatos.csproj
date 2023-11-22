@@ -41,13 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="datCliente.cs" />
     <Compile Include="datAsistencia.cs" />
     <Compile Include="datAlumno.cs" />
     <Compile Include="Conexion.cs" />
     <Compile Include="datBoleta.cs" />
     <Compile Include="datDocente.cs" />
-    <Compile Include="datMatricula.cs" />
-    <Compile Include="datTipoMatricula.cs" />
+    <Compile Include="datMetododePago.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

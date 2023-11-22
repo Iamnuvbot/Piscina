@@ -44,8 +44,8 @@
     <Compile Include="logAsistencia.cs" />
     <Compile Include="logAlumno.cs" />
     <Compile Include="logBoleta.cs" />
-    <Compile Include="logMatricula.cs" />
-    <Compile Include="logTipoMatricula.cs" />
+    <Compile Include="logCliente.cs" />
+    <Compile Include="logMetodosdePago.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

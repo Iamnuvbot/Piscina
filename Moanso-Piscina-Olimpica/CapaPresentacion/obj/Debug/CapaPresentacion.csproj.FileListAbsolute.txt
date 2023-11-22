@@ -101,7 +101,6 @@ C:\Users\Asus\source\repos\Piscina\Moanso-Piscina-Olimpica\CapaPresentacion\obj\
 C:\Users\Asus\source\repos\Piscina\Moanso-Piscina-Olimpica\CapaPresentacion\obj\Debug\Moanso_Piscina.Perfil_Docente.resources
 C:\Users\Asus\source\repos\Piscina\Moanso-Piscina-Olimpica\CapaPresentacion\obj\Debug\Moanso_Piscina.Tipo_Matricula_Registrado.resources
 C:\Users\Asus\source\repos\Piscina\Moanso-Piscina-Olimpica\CapaPresentacion\obj\Debug\Moanso_Piscina.Ingreso_Monetario.resources
-C:\Users\Asus\source\repos\Piscina\Moanso-Piscina-Olimpica\CapaPresentacion\obj\Debug\Moanso_Piscina.ListaCliente.resources
 C:\Users\Asus\source\repos\Piscina\Moanso-Piscina-Olimpica\CapaPresentacion\obj\Debug\Moanso_Piscina.Mantenedor_Clientes.resources
 C:\Users\Asus\source\repos\Piscina\Moanso-Piscina-Olimpica\CapaPresentacion\obj\Debug\Moanso_Piscina.Menu.resources
 C:\Users\Asus\source\repos\Piscina\Moanso-Piscina-Olimpica\CapaPresentacion\obj\Debug\Moanso_Piscina.Metodo_De_Pago.resources

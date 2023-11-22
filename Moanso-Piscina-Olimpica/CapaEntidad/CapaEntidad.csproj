@@ -41,12 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="entMetododePago.cs" />
     <Compile Include="entAsistencia.cs" />
     <Compile Include="entAlumno.cs" />
     <Compile Include="entBoleta.cs" />
     <Compile Include="entCliente.cs" />
     <Compile Include="entDocente.cs" />
-    <Compile Include="entMatricula.cs" />
     <Compile Include="entTipoMatricula.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

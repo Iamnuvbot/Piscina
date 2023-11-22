@@ -48,12 +48,6 @@ namespace Moanso_Piscina
             frm.Show();
         }
 
-        private void button5_Click(object sender, EventArgs e)
-        {
-            ListaCliente frm = new ListaCliente();
-            frm.Show();
-        }
-
         private void button12_Click(object sender, EventArgs e)
         {
             Devolución_Pago frm = new Devolución_Pago();

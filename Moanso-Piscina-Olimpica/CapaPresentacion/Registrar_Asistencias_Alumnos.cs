@@ -21,27 +21,28 @@ namespace Moanso_Piscina
 
         private void button4_Click(object sender, EventArgs e)
         {
-            dataGridView_asistencias.DataSource = logAsistenciaAlumnos.Instancia.ListarAsistencias(textDNI.Text);
+            dataGridView_asistencias.DataSource = logAsistencia.Instancia.ListarAsistencias(textDNI.Text);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             if (textDNI.Text.Length > 0)
             {
-                entAsistenciaAlumnos entAsistenciaAlumnos = new entAsistenciaAlumnos();
-                entAsistenciaAlumnos.AlumnoDNI = textDNI.Text;
+                entAsistencia entAsistenciaAlumnos = new entAsistencia();
+                entAsistenciaAlumnos.DNI = textDNI.Text;
                 entAsistenciaAlumnos.HoraEntrada = DateTime.Now.TimeOfDay.ToString();
                 entAsistenciaAlumnos.Fecha = DateTime.Today.ToString();
                 var entAlumno = logAlumno.Instancia.ObtenerAlumno(textDNI.Text);
-                if (entAlumno.EstaDentro != true)
+                if (entAlumno.In == false)
                 {
-                    logAsistenciaAlumnos.Instancia.InsertarAsistencia(entAsistenciaAlumnos);
-                }
-                else
+                    logAsistencia.Instancia.InsertarAsistencia(entAsistenciaAlumnos);
+                    entAlumno.In = true;
+                }else
                 {
-                    logAsistenciaAlumnos.Instancia.InsertarSalida(textDNI.Text, DateTime.Now.TimeOfDay.ToString());
+                    logAsistencia.Instancia.InsertarSalida(textDNI.Text, DateTime.Now.TimeOfDay.ToString());
+                    entAlumno.In = false;
                 }
-                dataGridView_asistencias.DataSource = logAsistenciaAlumnos.Instancia.ListarAsistencias(textDNI.Text);
+                dataGridView_asistencias.DataSource = logAsistencia.Instancia.ListarAsistencias(textDNI.Text);
             }
             else
             {

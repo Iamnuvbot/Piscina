@@ -53,3 +53,14 @@ C:\Users\Asus\source\repos\Piscina\Moanso-Piscina-Olimpica\CapaLogica\obj\Debug\
 C:\Users\Asus\source\repos\Piscina\Moanso-Piscina-Olimpica\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
 C:\Users\Asus\source\repos\Piscina\Moanso-Piscina-Olimpica\CapaLogica\obj\Debug\CapaLogica.dll
 C:\Users\Asus\source\repos\Piscina\Moanso-Piscina-Olimpica\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Moanso-Repositorio\Moanso-Piscina-Olimpica\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Moanso-Repositorio\Moanso-Piscina-Olimpica\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Moanso-Repositorio\Moanso-Piscina-Olimpica\CapaLogica\bin\Debug\CapaDatos.dll
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Moanso-Repositorio\Moanso-Piscina-Olimpica\CapaLogica\bin\Debug\CapaEntidad.dll
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Moanso-Repositorio\Moanso-Piscina-Olimpica\CapaLogica\bin\Debug\CapaDatos.pdb
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Moanso-Repositorio\Moanso-Piscina-Olimpica\CapaLogica\bin\Debug\CapaEntidad.pdb
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Moanso-Repositorio\Moanso-Piscina-Olimpica\CapaLogica\obj\Debug\CapaLogica.csproj.AssemblyReference.cache
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Moanso-Repositorio\Moanso-Piscina-Olimpica\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Moanso-Repositorio\Moanso-Piscina-Olimpica\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Moanso-Repositorio\Moanso-Piscina-Olimpica\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Moanso-Repositorio\Moanso-Piscina-Olimpica\CapaLogica\obj\Debug\CapaLogica.pdb

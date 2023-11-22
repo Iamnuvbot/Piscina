@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CapaEntidad;
+using CapaLogica;
 
 namespace Moanso_Piscina
 {
@@ -17,42 +19,21 @@ namespace Moanso_Piscina
             InitializeComponent();
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void btnGenerarBoleta_Click(object sender, EventArgs e)
         {
-
+            string MetododePago = cbBMetododePago.SelectedItem.ToString();
+            double Monto = (double)monto.Value;
+            string Fecha = fechaBox.Value.ToString();
+            string TipoServicio = cbBTipoServicio.SelectedItem.ToString();
+            string DNI = textBox_DNI.Text;
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void btn_BuscarBoletas_Click(object sender, EventArgs e)
         {
-
+            string BuscarDNI = textBox_DNIBuscar.Text;
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label11_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
+        private void btn_AnularBoletas_Click(object sender, EventArgs e)
         {
 
         }

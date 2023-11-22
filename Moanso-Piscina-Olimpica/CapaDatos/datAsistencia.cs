@@ -23,10 +23,10 @@ namespace CapaDatos
         }
         #endregion singleton
         #region metodos
-        public List<entAsistenciaAlumnos> ListarAsistencias(string dni)
+        public List<entAsistencia> ListarAsistencias(string dni)
         {
             SqlCommand cmd = null;
-            List<entAsistenciaAlumnos> lista = new List<entAsistenciaAlumnos>();
+            List<entAsistencia> lista = new List<entAsistencia>();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar(); //singleton
@@ -38,8 +38,8 @@ namespace CapaDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entAsistenciaAlumnos Asist = new entAsistenciaAlumnos();
-                    Asist.AlumnoDNI = dr["AlumnoDNI"].ToString();
+                    entAsistencia Asist = new entAsistencia();
+                    Asist.DNI = dr["AlumnoDNI"].ToString();
                     Asist.Fecha = dr["Fecha"].ToString();
                     Asist.HoraEntrada = dr["HoraEntrada"].ToString();
                     Asist.HoraSalida= dr["HoraSalida"].ToString();
@@ -53,7 +53,7 @@ namespace CapaDatos
             finally { cmd.Connection.Close(); }
             return lista;
         }
-        public Boolean InsertarAsistencia(entAsistenciaAlumnos Alumno)
+        public Boolean InsertarAsistencia(entAsistencia Alumno)
         {
             SqlCommand cmd = null;
             Boolean inserta = false;
@@ -62,7 +62,7 @@ namespace CapaDatos
                 SqlConnection cn = Conexion.Instancia.Conectar();
                 cmd = new SqlCommand("spRegistrarAsistenciaAlumno", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@DNI", Alumno.AlumnoDNI);
+                cmd.Parameters.AddWithValue("@DNI", Alumno.DNI);
                 cmd.Parameters.AddWithValue("@Fecha", Alumno.Fecha);
                 cmd.Parameters.AddWithValue("@HoraEntrada", Alumno.HoraEntrada);
                 cn.Open();

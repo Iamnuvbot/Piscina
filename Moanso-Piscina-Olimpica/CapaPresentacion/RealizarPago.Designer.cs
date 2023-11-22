@@ -31,271 +31,243 @@ namespace Moanso_Piscina
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RealizarPago));
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.textBox_DNI = new System.Windows.Forms.TextBox();
+            this.btnGenerarBoleta = new System.Windows.Forms.Button();
+            this.cbBMetododePago = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.fechaBox = new System.Windows.Forms.DateTimePicker();
             this.label10 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.cbBTipoServicio = new System.Windows.Forms.ComboBox();
+            this.richTextBox_MostrarBoleta = new System.Windows.Forms.RichTextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox_DNIBuscar = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btn_BuscarBoletas = new System.Windows.Forms.Button();
+            this.btn_AnularBoletas = new System.Windows.Forms.Button();
+            this.monto = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.monto)).BeginInit();
             this.SuspendLayout();
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(7, 251);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(2, 273);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(30, 16);
+            this.label4.Size = new System.Drawing.Size(26, 13);
             this.label4.TabIndex = 9;
             this.label4.Text = "DNI";
             // 
-            // textBox4
+            // textBox_DNI
             // 
-            this.textBox4.Location = new System.Drawing.Point(63, 247);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(184, 22);
-            this.textBox4.TabIndex = 19;
+            this.textBox_DNI.Location = new System.Drawing.Point(44, 270);
+            this.textBox_DNI.Name = "textBox_DNI";
+            this.textBox_DNI.Size = new System.Drawing.Size(139, 20);
+            this.textBox_DNI.TabIndex = 19;
             // 
-            // button4
+            // btnGenerarBoleta
             // 
-            this.button4.BackColor = System.Drawing.Color.Cornsilk;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button4.Location = new System.Drawing.Point(6, 384);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(284, 42);
-            this.button4.TabIndex = 35;
-            this.button4.Text = "CONSULTAR BOLETA POR FECHA";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.btnGenerarBoleta.BackColor = System.Drawing.Color.Cornsilk;
+            this.btnGenerarBoleta.Image = ((System.Drawing.Image)(resources.GetObject("btnGenerarBoleta.Image")));
+            this.btnGenerarBoleta.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnGenerarBoleta.Location = new System.Drawing.Point(9, 311);
+            this.btnGenerarBoleta.Name = "btnGenerarBoleta";
+            this.btnGenerarBoleta.Size = new System.Drawing.Size(174, 42);
+            this.btnGenerarBoleta.TabIndex = 2;
+            this.btnGenerarBoleta.Text = "GENERAR BOLETA";
+            this.btnGenerarBoleta.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnGenerarBoleta.UseVisualStyleBackColor = false;
+            this.btnGenerarBoleta.Click += new System.EventHandler(this.btnGenerarBoleta_Click);
             // 
-            // button1
+            // cbBMetododePago
             // 
-            this.button1.BackColor = System.Drawing.Color.Cornsilk;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.Location = new System.Drawing.Point(27, 314);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(208, 42);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "GENERAR BOLETA";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cbBMetododePago.FormattingEnabled = true;
+            this.cbBMetododePago.Items.AddRange(new object[] {
             "Yape",
-            "Plin",
             "Efectivo"});
-            this.comboBox1.Location = new System.Drawing.Point(60, 58);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(160, 24);
-            this.comboBox1.TabIndex = 0;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.cbBMetododePago.Location = new System.Drawing.Point(4, 63);
+            this.cbBMetododePago.Name = "cbBMetododePago";
+            this.cbBMetododePago.Size = new System.Drawing.Size(121, 21);
+            this.cbBMetododePago.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(84, 27);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(2, 47);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(108, 16);
+            this.label1.Size = new System.Drawing.Size(86, 13);
             this.label1.TabIndex = 6;
             this.label1.Text = "Metodo de Pago";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(3, 214);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(1, 220);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(87, 16);
+            this.label5.Size = new System.Drawing.Size(69, 13);
             this.label5.TabIndex = 11;
             this.label5.Text = "Tipo Servicio";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(63, 110);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(184, 22);
-            this.textBox3.TabIndex = 17;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(116, 90);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(2, 111);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(44, 16);
+            this.label9.Size = new System.Drawing.Size(37, 13);
             this.label9.TabIndex = 18;
             this.label9.Text = "Monto";
             // 
-            // dateTimePicker1
+            // fechaBox
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(27, 162);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(241, 22);
-            this.dateTimePicker1.TabIndex = 30;
+            this.fechaBox.Location = new System.Drawing.Point(4, 173);
+            this.fechaBox.Margin = new System.Windows.Forms.Padding(2);
+            this.fechaBox.Name = "fechaBox";
+            this.fechaBox.Size = new System.Drawing.Size(198, 20);
+            this.fechaBox.TabIndex = 30;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(116, 144);
+            this.label10.Location = new System.Drawing.Point(2, 158);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(45, 16);
+            this.label10.Size = new System.Drawing.Size(37, 13);
             this.label10.TabIndex = 31;
             this.label10.Text = "Fecha";
             // 
-            // comboBox2
+            // cbBTipoServicio
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(96, 210);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(101, 24);
-            this.comboBox2.TabIndex = 37;
+            this.cbBTipoServicio.FormattingEnabled = true;
+            this.cbBTipoServicio.Items.AddRange(new object[] {
+            "Matricula",
+            "Alquiler"});
+            this.cbBTipoServicio.Location = new System.Drawing.Point(106, 217);
+            this.cbBTipoServicio.Margin = new System.Windows.Forms.Padding(2);
+            this.cbBTipoServicio.Name = "cbBTipoServicio";
+            this.cbBTipoServicio.Size = new System.Drawing.Size(77, 21);
+            this.cbBTipoServicio.TabIndex = 37;
             // 
-            // richTextBox1
+            // richTextBox_MostrarBoleta
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(312, 58);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(256, 397);
-            this.richTextBox1.TabIndex = 38;
-            this.richTextBox1.Text = "";
+            this.richTextBox_MostrarBoleta.Location = new System.Drawing.Point(223, 47);
+            this.richTextBox_MostrarBoleta.Name = "richTextBox_MostrarBoleta";
+            this.richTextBox_MostrarBoleta.Size = new System.Drawing.Size(193, 323);
+            this.richTextBox_MostrarBoleta.TabIndex = 38;
+            this.richTextBox_MostrarBoleta.Text = "";
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(621, 58);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Location = new System.Drawing.Point(433, 47);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(432, 129);
+            this.dataGridView1.Size = new System.Drawing.Size(390, 161);
             this.dataGridView1.TabIndex = 39;
             // 
-            // textBox1
+            // textBox_DNIBuscar
             // 
-            this.textBox1.Location = new System.Drawing.Point(644, 282);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(167, 22);
-            this.textBox1.TabIndex = 41;
+            this.textBox_DNIBuscar.Location = new System.Drawing.Point(575, 214);
+            this.textBox_DNIBuscar.Name = "textBox_DNIBuscar";
+            this.textBox_DNIBuscar.Size = new System.Drawing.Size(126, 20);
+            this.textBox_DNIBuscar.TabIndex = 41;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(601, 286);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(543, 217);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(30, 16);
+            this.label2.Size = new System.Drawing.Size(26, 13);
             this.label2.TabIndex = 42;
             this.label2.Text = "DNI";
             // 
-            // button3
+            // btn_BuscarBoletas
             // 
-            this.button3.BackColor = System.Drawing.Color.Cornsilk;
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.Location = new System.Drawing.Point(644, 312);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(182, 46);
-            this.button3.TabIndex = 43;
-            this.button3.Text = "BUSCAR BOLETAS";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.UseVisualStyleBackColor = false;
+            this.btn_BuscarBoletas.BackColor = System.Drawing.Color.Cornsilk;
+            this.btn_BuscarBoletas.Image = ((System.Drawing.Image)(resources.GetObject("btn_BuscarBoletas.Image")));
+            this.btn_BuscarBoletas.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_BuscarBoletas.Location = new System.Drawing.Point(466, 253);
+            this.btn_BuscarBoletas.Name = "btn_BuscarBoletas";
+            this.btn_BuscarBoletas.Size = new System.Drawing.Size(136, 37);
+            this.btn_BuscarBoletas.TabIndex = 43;
+            this.btn_BuscarBoletas.Text = "BUSCAR BOLETAS";
+            this.btn_BuscarBoletas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_BuscarBoletas.UseVisualStyleBackColor = false;
+            this.btn_BuscarBoletas.Click += new System.EventHandler(this.btn_BuscarBoletas_Click);
             // 
-            // button2
+            // btn_AnularBoletas
             // 
-            this.button2.BackColor = System.Drawing.Color.Cornsilk;
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.Location = new System.Drawing.Point(864, 273);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(189, 43);
-            this.button2.TabIndex = 44;
-            this.button2.Text = "ANULAR BOLETAS";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.UseVisualStyleBackColor = false;
+            this.btn_AnularBoletas.BackColor = System.Drawing.Color.Cornsilk;
+            this.btn_AnularBoletas.Image = ((System.Drawing.Image)(resources.GetObject("btn_AnularBoletas.Image")));
+            this.btn_AnularBoletas.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_AnularBoletas.Location = new System.Drawing.Point(648, 255);
+            this.btn_AnularBoletas.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_AnularBoletas.Name = "btn_AnularBoletas";
+            this.btn_AnularBoletas.Size = new System.Drawing.Size(142, 35);
+            this.btn_AnularBoletas.TabIndex = 44;
+            this.btn_AnularBoletas.Text = "ANULAR BOLETAS";
+            this.btn_AnularBoletas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_AnularBoletas.UseVisualStyleBackColor = false;
+            this.btn_AnularBoletas.Click += new System.EventHandler(this.btn_AnularBoletas_Click);
+            // 
+            // monto
+            // 
+            this.monto.Location = new System.Drawing.Point(63, 109);
+            this.monto.Name = "monto";
+            this.monto.Size = new System.Drawing.Size(120, 20);
+            this.monto.TabIndex = 45;
             // 
             // RealizarPago
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.ClientSize = new System.Drawing.Size(1096, 497);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button3);
+            this.ClientSize = new System.Drawing.Size(835, 404);
+            this.Controls.Add(this.monto);
+            this.Controls.Add(this.btn_AnularBoletas);
+            this.Controls.Add(this.btn_BuscarBoletas);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBox_DNIBuscar);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.richTextBox1);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.richTextBox_MostrarBoleta);
+            this.Controls.Add(this.cbBTipoServicio);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.fechaBox);
+            this.Controls.Add(this.textBox_DNI);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.btnGenerarBoleta);
+            this.Controls.Add(this.cbBMetododePago);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "RealizarPago";
             this.Text = "Boleta de Pago";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.monto)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnGenerarBoleta;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox textBox_DNI;
+        private System.Windows.Forms.ComboBox cbBMetododePago;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker fechaBox;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.ComboBox cbBTipoServicio;
+        private System.Windows.Forms.RichTextBox richTextBox_MostrarBoleta;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox_DNIBuscar;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_BuscarBoletas;
+        private System.Windows.Forms.Button btn_AnularBoletas;
+        private System.Windows.Forms.NumericUpDown monto;
     }
 }

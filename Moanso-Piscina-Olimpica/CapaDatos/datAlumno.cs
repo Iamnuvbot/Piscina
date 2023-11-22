@@ -36,13 +36,10 @@ namespace CapaDatos
                     Alumno.idAlumno = Convert.ToInt32(dr["ID"]);
                     Alumno.DNI = dr["DNI"].ToString();
                     Alumno.Nombre = dr["Nombre"].ToString();
-                    Alumno.Apellido = dr["Apellido"].ToString();
-                    Alumno.Categoria = dr["Categoria"].ToString();
+                    Alumno.TipoMatricula = dr["Categoria"].ToString();
                     Alumno.Horario = dr["Horario"].ToString();
                     Alumno.AsistenciasDisponibles = Convert.ToInt32(dr["AsistenciasDisponibles"]);
-                    Alumno.Correo = dr["Correo"].ToString();
                     Alumno.Telefono = dr["Telefono"].ToString();
-                    Alumno.Direccion = dr["Direccion"].ToString();
                     Alumno.Edad = Convert.ToInt32(dr["Edad"]);
                     Alumno.Estado = Convert.ToBoolean(dr["Estado"]);
                     Alumno.Nivel = dr["Nivel"].ToString();
@@ -76,16 +73,12 @@ namespace CapaDatos
                            
                             Alumno.DNI = dr["DNI"].ToString();
                             Alumno.Nombre = dr["Nombre"].ToString();
-                            Alumno.Apellido = dr["Apellido"].ToString();
-                            Alumno.Categoria = dr["Categoria"].ToString();
+                            Alumno.TipoMatricula = dr["Categoria"].ToString();
                             Alumno.Horario = dr["Horario"].ToString();
                             Alumno.AsistenciasDisponibles = Convert.ToInt32(dr["AsistenciasDisponibles"]);
-                            Alumno.Correo = dr["Correo"].ToString();
                             Alumno.Telefono = dr["Telefono"].ToString();
-                            Alumno.Direccion = dr["Direccion"].ToString();
                             Alumno.Edad = Convert.ToInt32(dr["Edad"]);
                             Alumno.Estado = Convert.ToBoolean(dr["Estado"]);
-                            Alumno.EstaDentro = Convert.ToBoolean(dr["EstaDentro"]);
                             Alumno.Nivel = dr["Nivel"].ToString();
                         }
                     }
@@ -111,13 +104,10 @@ namespace CapaDatos
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@DNI", Alumno.DNI);
                 cmd.Parameters.AddWithValue("@Nombre", Alumno.Nombre);
-                cmd.Parameters.AddWithValue("@Apellido", Alumno.Apellido);
-                cmd.Parameters.AddWithValue("@Categoria", Alumno.Categoria);
+                cmd.Parameters.AddWithValue("@Categoria", Alumno.TipoMatricula);
                 cmd.Parameters.AddWithValue("@Horario", Alumno.Horario);
                 cmd.Parameters.AddWithValue("@AsistenciasDisponibles", Alumno.AsistenciasDisponibles);
-                cmd.Parameters.AddWithValue("@Correo", Alumno.Correo);
                 cmd.Parameters.AddWithValue("@Telefono", Alumno.Telefono);
-                cmd.Parameters.AddWithValue("@Direccion", Alumno.Direccion);
                 cmd.Parameters.AddWithValue("@Edad", Alumno.Edad);
                 cmd.Parameters.AddWithValue("@Nivel", Alumno.Nivel);
                 cn.Open();

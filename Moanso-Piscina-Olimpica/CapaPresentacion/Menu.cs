@@ -29,10 +29,5 @@ namespace Moanso_Piscina
             Registrar_Asistencias_Alumnos frm = new Registrar_Asistencias_Alumnos();
             frm.Show();
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

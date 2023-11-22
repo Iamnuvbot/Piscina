@@ -56,18 +56,12 @@ namespace Moanso_Piscina
             SetDtgvdni(BuscarDNI);
 
         }
-
+        public int valorid;
         private void btn_AnularBoletas_Click(object sender, EventArgs e)
         {
-            string ID = dataGridView1.SelectedRows[0].Cells[2].Value.ToString();
-            if (ID != null)
-            {
-                logBoleta.Instancia.AnularBoleta(ID);
-            }
-            else
-            {
 
-            }
+                logBoleta.Instancia.AnularBoleta(valorid);
+            SetDtgv();
         }
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -75,8 +69,8 @@ namespace Moanso_Piscina
             if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
             {
                 DataGridViewRow filaSeleccionada = dataGridView1.Rows[e.RowIndex];
-                string valorColumna1 = filaSeleccionada.Cells[0].Value.ToString();
-                string valorColumna2 = filaSeleccionada.Cells[1].Value.ToString();
+                int valorID=Convert.ToInt32(filaSeleccionada.Cells[0].Value.ToString());
+                valorid = valorID;
             }
         }
     }

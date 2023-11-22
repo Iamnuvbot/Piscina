@@ -33,7 +33,7 @@ namespace CapaLogica
         {
             return datBoleta.Instancia.BuscarBoletas(DNI);
         }
-        public void AnularBoleta(string ID)
+        public void AnularBoleta(int ID)
         {
             datBoleta.Instancia.AnularBoleta(ID);
         }

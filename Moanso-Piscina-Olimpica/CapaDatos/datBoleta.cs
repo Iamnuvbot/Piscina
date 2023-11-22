@@ -10,6 +10,7 @@ namespace CapaDatos
     public class datBoleta
     {
         List<entBoleta> boletasLista = new List<entBoleta>();
+        public static int id; 
         #region sigleton
         private static readonly datBoleta _instancia = new datBoleta();
         public static datBoleta Instancia
@@ -23,6 +24,8 @@ namespace CapaDatos
         #region metodos
         public void InsertarBoleta(entBoleta boleta)
         {
+            id++;
+            boleta.idBoleta = id;
             ListarBoletas().Add(boleta);
         }
         public List<entBoleta> ListarBoletas()
@@ -45,13 +48,14 @@ namespace CapaDatos
             }
             return boletas;
         }
-        public void AnularBoleta(string Fecha)
+        public void AnularBoleta(string ID)
         {
-            foreach(entBoleta boleta in boletasLista)
+            for (int i = boletasLista.Count - 1; i >= 0; i--)
             {
-                if(boleta.Fecha == Fecha)
+                entBoleta boleta = boletasLista[i];
+                if (boleta.Fecha == ID)
                 {
-                    boletasLista.Remove(boleta);
+                    boletasLista.RemoveAt(i);
                 }
             }
         }

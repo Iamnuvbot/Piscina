@@ -18,7 +18,6 @@ namespace Moanso_Piscina
         {
             InitializeComponent();
         }
-
         private void btnGenerarBoleta_Click(object sender, EventArgs e)
         {
             string MetododePago = cbBMetododePago.SelectedItem.ToString();
@@ -57,16 +56,27 @@ namespace Moanso_Piscina
             SetDtgvdni(BuscarDNI);
 
         }
+
         private void btn_AnularBoletas_Click(object sender, EventArgs e)
         {
-            string Fecha = dataGridView1.SelectedRows[0].Cells[2].Value.ToString();
-            if (Fecha != null)
+            string ID = dataGridView1.SelectedRows[0].Cells[2].Value.ToString();
+            if (ID != null)
             {
-                logBoleta.Instancia.AnularBoleta(Fecha);
+                logBoleta.Instancia.AnularBoleta(ID);
             }
             else
             {
 
+            }
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
+            {
+                DataGridViewRow filaSeleccionada = dataGridView1.Rows[e.RowIndex];
+                string valorColumna1 = filaSeleccionada.Cells[0].Value.ToString();
+                string valorColumna2 = filaSeleccionada.Cells[1].Value.ToString();
             }
         }
     }

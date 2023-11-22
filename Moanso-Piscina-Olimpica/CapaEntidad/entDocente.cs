@@ -11,5 +11,7 @@ namespace CapaEntidad
         public int idDocente { get; set; }
         public string DNI { get; set; }
         public string Nombre { get; set; }
+        
     }
+
 }

@@ -61,7 +61,7 @@ namespace Moanso_Piscina
             // label_dni1
             // 
             this.label_dni1.AutoSize = true;
-            this.label_dni1.Location = new System.Drawing.Point(39, 29);
+            this.label_dni1.Location = new System.Drawing.Point(25, 40);
             this.label_dni1.Name = "label_dni1";
             this.label_dni1.Size = new System.Drawing.Size(70, 13);
             this.label_dni1.TabIndex = 40;
@@ -69,7 +69,7 @@ namespace Moanso_Piscina
             // 
             // textBox_dni1
             // 
-            this.textBox_dni1.Location = new System.Drawing.Point(42, 57);
+            this.textBox_dni1.Location = new System.Drawing.Point(28, 68);
             this.textBox_dni1.Name = "textBox_dni1";
             this.textBox_dni1.Size = new System.Drawing.Size(100, 20);
             this.textBox_dni1.TabIndex = 39;
@@ -101,7 +101,7 @@ namespace Moanso_Piscina
             this.label_asistencia.TabIndex = 36;
             this.label_asistencia.Text = "Asistencia";
             // 
-            // Asistencia_Docente
+            // Registrar_Asistencias_Docente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -113,7 +113,7 @@ namespace Moanso_Piscina
             this.Controls.Add(this.dataGridView_asistencias);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label_asistencia);
-            this.Name = "Asistencia_Docente";
+            this.Name = "Registrar_Asistencias_Docente";
             this.Text = "Asistencia_Docente";
             this.Load += new System.EventHandler(this.Asistencia_Docente_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_asistencias)).EndInit();

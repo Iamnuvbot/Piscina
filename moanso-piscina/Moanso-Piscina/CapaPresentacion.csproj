@@ -64,6 +64,12 @@
     <Compile Include="Perfil_Alumno.designer.cs">
       <DependentUpon>Perfil_Alumno.cs</DependentUpon>
     </Compile>
+    <Compile Include="Perfil_Docente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Perfil_Docente.Designer.cs">
+      <DependentUpon>Perfil_Docente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tipo_Matricula_Registrado.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -134,6 +140,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Perfil_Alumno.resx">
       <DependentUpon>Perfil_Alumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Perfil_Docente.resx">
+      <DependentUpon>Perfil_Docente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tipo_Matricula_Registrado.resx">
       <DependentUpon>Tipo_Matricula_Registrado.cs</DependentUpon>

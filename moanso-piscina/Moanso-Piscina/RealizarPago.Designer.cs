@@ -55,6 +55,10 @@ namespace Moanso_Piscina
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Yape",
+            "Plin",
+            "Efectivo"});
             this.comboBox1.Location = new System.Drawing.Point(8, 52);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
@@ -74,7 +78,7 @@ namespace Moanso_Piscina
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(294, 31);
+            this.label4.Location = new System.Drawing.Point(293, 15);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(26, 13);
             this.label4.TabIndex = 9;
@@ -98,7 +102,7 @@ namespace Moanso_Piscina
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(296, 47);
+            this.textBox4.Location = new System.Drawing.Point(295, 31);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(139, 20);
             this.textBox4.TabIndex = 19;
@@ -106,7 +110,7 @@ namespace Moanso_Piscina
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(296, 84);
+            this.dataGridView1.Location = new System.Drawing.Point(296, 69);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
@@ -115,12 +119,12 @@ namespace Moanso_Piscina
             // 
             // label11
             // 
-            this.label11.Location = new System.Drawing.Point(294, 68);
+            this.label11.Location = new System.Drawing.Point(294, 53);
             this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(31, 14);
+            this.label11.Size = new System.Drawing.Size(116, 14);
             this.label11.TabIndex = 26;
-            this.label11.Text = "Perfil";
+            this.label11.Text = "Datos del cliente";
             this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // dataGridView2
@@ -164,7 +168,7 @@ namespace Moanso_Piscina
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(439, 40);
+            this.button3.Location = new System.Drawing.Point(439, 29);
             this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(52, 24);
@@ -194,9 +198,9 @@ namespace Moanso_Piscina
             // 
             this.button4.Image = global::Moanso_Piscina.Properties.Resources.Check_16x16;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button4.Location = new System.Drawing.Point(4, 358);
+            this.button4.Location = new System.Drawing.Point(12, 336);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(128, 34);
+            this.button4.Size = new System.Drawing.Size(137, 36);
             this.button4.TabIndex = 35;
             this.button4.Text = "Consultar Boletas por fecha";
             this.button4.UseVisualStyleBackColor = true;
@@ -206,7 +210,7 @@ namespace Moanso_Piscina
             // 
             this.button2.Image = global::Moanso_Piscina.Properties.Resources.X_25x25;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.Location = new System.Drawing.Point(4, 317);
+            this.button2.Location = new System.Drawing.Point(12, 295);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(125, 34);
             this.button2.TabIndex = 4;
@@ -217,7 +221,7 @@ namespace Moanso_Piscina
             // 
             this.button1.Image = global::Moanso_Piscina.Properties.Resources.Check_16x16;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.Location = new System.Drawing.Point(4, 266);
+            this.button1.Location = new System.Drawing.Point(12, 244);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(125, 34);
             this.button1.TabIndex = 2;
@@ -230,7 +234,7 @@ namespace Moanso_Piscina
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Cornsilk;
-            this.ClientSize = new System.Drawing.Size(785, 452);
+            this.ClientSize = new System.Drawing.Size(781, 430);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);

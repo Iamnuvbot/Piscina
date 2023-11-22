@@ -1,0 +1,36 @@
+C:\Users\cubac\Source\Repos\Iamnuvbot\Piscina\moanso-piscina\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\cubac\Source\Repos\Iamnuvbot\Piscina\moanso-piscina\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\cubac\Source\Repos\Iamnuvbot\Piscina\moanso-piscina\CapaDatos\bin\Debug\CapaEntidad.dll
+C:\Users\cubac\Source\Repos\Iamnuvbot\Piscina\moanso-piscina\CapaDatos\bin\Debug\CapaEntidad.pdb
+C:\Users\cubac\Source\Repos\Iamnuvbot\Piscina\moanso-piscina\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\cubac\Source\Repos\Iamnuvbot\Piscina\moanso-piscina\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\cubac\Source\Repos\Iamnuvbot\Piscina\moanso-piscina\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\cubac\Source\Repos\Iamnuvbot\Piscina\moanso-piscina\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\cubac\Source\Repos\Iamnuvbot\Piscina\moanso-piscina\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\CapaDatos\bin\Debug\CapaEntidad.dll
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\CapaDatos\bin\Debug\CapaEntidad.pdb
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\JeanN - G\Source\Repos\Piscina\moanso-piscina\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Nueva carpeta\moanso-piscina\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Nueva carpeta\moanso-piscina\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Nueva carpeta\moanso-piscina\CapaDatos\bin\Debug\CapaEntidad.dll
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Nueva carpeta\moanso-piscina\CapaDatos\bin\Debug\CapaEntidad.pdb
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Nueva carpeta\moanso-piscina\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Nueva carpeta\moanso-piscina\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Nueva carpeta\moanso-piscina\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Nueva carpeta\moanso-piscina\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Nueva carpeta\moanso-piscina\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Moanso\moanso-piscina\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Moanso\moanso-piscina\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Moanso\moanso-piscina\CapaDatos\bin\Debug\CapaEntidad.dll
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Moanso\moanso-piscina\CapaDatos\bin\Debug\CapaEntidad.pdb
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Moanso\moanso-piscina\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Moanso\moanso-piscina\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Moanso\moanso-piscina\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Moanso\moanso-piscina\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\cubac\OneDrive\Escritorio\Moando-Visual.Git\Moanso\moanso-piscina\CapaDatos\obj\Debug\CapaDatos.pdb

@@ -46,9 +46,8 @@ namespace Moanso_Piscina
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button3 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -84,7 +83,7 @@ namespace Moanso_Piscina
             // 
             this.button2.Image = global::Moanso_Piscina.Properties.Resources.X_25x25;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.Location = new System.Drawing.Point(665, 256);
+            this.button2.Location = new System.Drawing.Point(665, 229);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(125, 34);
             this.button2.TabIndex = 4;
@@ -189,47 +188,35 @@ namespace Moanso_Piscina
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(454, 47);
+            this.dataGridView1.Location = new System.Drawing.Point(466, 47);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(336, 170);
+            this.dataGridView1.Size = new System.Drawing.Size(324, 105);
             this.dataGridView1.TabIndex = 39;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(452, 250);
+            this.button3.Location = new System.Drawing.Point(499, 255);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(88, 46);
             this.button3.TabIndex = 40;
             this.button3.Text = "Buscar Boletas";
             this.button3.UseVisualStyleBackColor = true;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(483, 229);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(126, 20);
+            this.textBox1.TabIndex = 41;
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(451, 234);
+            this.label2.Location = new System.Drawing.Point(451, 232);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 13);
+            this.label2.Size = new System.Drawing.Size(26, 13);
             this.label2.TabIndex = 42;
-            this.label2.Text = "Buscar por DNI";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(451, 31);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(89, 13);
-            this.label3.TabIndex = 43;
-            this.label3.Text = "Consultar Boletas";
-            this.label3.Click += new System.EventHandler(this.label3_Click_1);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(231, 31);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(91, 13);
-            this.label6.TabIndex = 44;
-            this.label6.Text = "Boleta Registrada";
+            this.label2.Text = "DNI";
             // 
             // RealizarPago
             // 
@@ -237,9 +224,8 @@ namespace Moanso_Piscina
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Cornsilk;
             this.ClientSize = new System.Drawing.Size(822, 404);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.richTextBox1);
@@ -282,8 +268,7 @@ namespace Moanso_Piscina
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label6;
     }
 }

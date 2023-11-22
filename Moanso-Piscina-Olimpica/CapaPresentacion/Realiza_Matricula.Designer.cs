@@ -51,7 +51,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(800, 43);
+            this.label1.Location = new System.Drawing.Point(504, 34);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(109, 24);
             this.label1.TabIndex = 3;
@@ -62,7 +62,7 @@
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView3.Location = new System.Drawing.Point(474, 71);
             this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.Size = new System.Drawing.Size(730, 135);
+            this.dataGridView3.Size = new System.Drawing.Size(605, 123);
             this.dataGridView3.TabIndex = 5;
             // 
             // button3
@@ -70,7 +70,7 @@
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.button3.Location = new System.Drawing.Point(18, 36);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(227, 61);
+            this.button3.Size = new System.Drawing.Size(178, 80);
             this.button3.TabIndex = 9;
             this.button3.Text = "Verificar Disponibilidad de Matricula";
             this.button3.UseVisualStyleBackColor = true;
@@ -79,7 +79,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(781, 247);
+            this.label2.Location = new System.Drawing.Point(567, 239);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(173, 24);
             this.label2.TabIndex = 17;
@@ -195,9 +195,9 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(474, 274);
+            this.richTextBox1.Location = new System.Drawing.Point(474, 278);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(730, 296);
+            this.richTextBox1.Size = new System.Drawing.Size(554, 292);
             this.richTextBox1.TabIndex = 24;
             this.richTextBox1.Text = "";
             // 
@@ -224,7 +224,7 @@
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Realiza_Matricula";
-            this.Text = "Realiza_Matricula";
+            this.Text = "REALIZA_MATRICULA";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

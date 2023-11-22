@@ -32,7 +32,7 @@ namespace Moanso_Piscina
             this.button4 = new System.Windows.Forms.Button();
             this.label_listarAsis = new System.Windows.Forms.Label();
             this.label_dni1 = new System.Windows.Forms.Label();
-            this.textDNI = new System.Windows.Forms.TextBox();
+            this.textBox_dni1 = new System.Windows.Forms.TextBox();
             this.dataGridView_asistencias = new System.Windows.Forms.DataGridView();
             this.button2 = new System.Windows.Forms.Button();
             this.label_asistencia = new System.Windows.Forms.Label();
@@ -42,7 +42,7 @@ namespace Moanso_Piscina
             // button4
             // 
             this.button4.Location = new System.Drawing.Point(398, 44);
-            this.button4.Margin = new System.Windows.Forms.Padding(2);
+            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(138, 44);
             this.button4.TabIndex = 42;
@@ -67,26 +67,26 @@ namespace Moanso_Piscina
             this.label_dni1.TabIndex = 40;
             this.label_dni1.Text = "DNI Docente";
             // 
-            // textDNI
+            // textBox_dni1
             // 
-            this.textDNI.Location = new System.Drawing.Point(28, 68);
-            this.textDNI.Name = "textDNI";
-            this.textDNI.Size = new System.Drawing.Size(100, 20);
-            this.textDNI.TabIndex = 39;
-            this.textDNI.TextChanged += new System.EventHandler(this.textDNI_TextChanged);
+            this.textBox_dni1.Location = new System.Drawing.Point(28, 68);
+            this.textBox_dni1.Name = "textBox_dni1";
+            this.textBox_dni1.Size = new System.Drawing.Size(100, 20);
+            this.textBox_dni1.TabIndex = 39;
             // 
             // dataGridView_asistencias
             // 
             this.dataGridView_asistencias.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_asistencias.Location = new System.Drawing.Point(12, 118);
             this.dataGridView_asistencias.Name = "dataGridView_asistencias";
+            this.dataGridView_asistencias.RowHeadersWidth = 51;
             this.dataGridView_asistencias.Size = new System.Drawing.Size(524, 191);
             this.dataGridView_asistencias.TabIndex = 38;
             // 
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(234, 44);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(138, 44);
             this.button2.TabIndex = 37;
@@ -110,7 +110,7 @@ namespace Moanso_Piscina
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label_listarAsis);
             this.Controls.Add(this.label_dni1);
-            this.Controls.Add(this.textDNI);
+            this.Controls.Add(this.textBox_dni1);
             this.Controls.Add(this.dataGridView_asistencias);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label_asistencia);
@@ -128,7 +128,7 @@ namespace Moanso_Piscina
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label_listarAsis;
         private System.Windows.Forms.Label label_dni1;
-        private System.Windows.Forms.TextBox textDNI;
+        private System.Windows.Forms.TextBox textBox_dni1;
         private System.Windows.Forms.DataGridView dataGridView_asistencias;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label_asistencia;

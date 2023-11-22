@@ -106,7 +106,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(104, 35);
             this.button3.TabIndex = 17;
-            this.button3.Text = "Inhabilitar";
+            this.button3.Text = "INHABILITAR";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button2
@@ -116,8 +116,9 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(104, 35);
             this.button2.TabIndex = 16;
-            this.button2.Text = "Modificar";
+            this.button2.Text = "MODIFICAR";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -126,8 +127,9 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(104, 35);
             this.button1.TabIndex = 15;
-            this.button1.Text = "Registrar";
+            this.button1.Text = "REGISTRAR";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label4
             // 
@@ -141,12 +143,12 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(173, 263);
+            this.button4.Location = new System.Drawing.Point(157, 254);
             this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(77, 39);
+            this.button4.Size = new System.Drawing.Size(93, 48);
             this.button4.TabIndex = 22;
-            this.button4.Text = "Consultar";
+            this.button4.Text = "CONSULTAR";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // label6
@@ -248,14 +250,15 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(308, 43);
+            this.pictureBox1.Location = new System.Drawing.Point(320, 43);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(200, 179);
             this.pictureBox1.TabIndex = 21;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // Form1
+            // Perfil_Alumno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -282,7 +285,7 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "Form1";
+            this.Name = "Perfil_Alumno";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

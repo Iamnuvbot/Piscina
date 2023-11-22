@@ -30,26 +30,15 @@ namespace Moanso_Piscina
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Registrar_Asistencias_Docente));
-            this.button4 = new System.Windows.Forms.Button();
             this.label_listarAsis = new System.Windows.Forms.Label();
             this.label_dni1 = new System.Windows.Forms.Label();
             this.textBox_dni1 = new System.Windows.Forms.TextBox();
             this.dataGridView_asistencias = new System.Windows.Forms.DataGridView();
-            this.button2 = new System.Windows.Forms.Button();
             this.label_asistencia = new System.Windows.Forms.Label();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_asistencias)).BeginInit();
             this.SuspendLayout();
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.Cornsilk;
-            this.button4.Location = new System.Drawing.Point(530, 54);
-            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(184, 54);
-            this.button4.TabIndex = 42;
-            this.button4.Text = "Listar Asistencias";
-            this.button4.UseVisualStyleBackColor = false;
             // 
             // label_listarAsis
             // 
@@ -89,17 +78,6 @@ namespace Moanso_Piscina
             this.dataGridView_asistencias.Size = new System.Drawing.Size(699, 235);
             this.dataGridView_asistencias.TabIndex = 38;
             // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Cornsilk;
-            this.button2.Location = new System.Drawing.Point(312, 54);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(184, 54);
-            this.button2.TabIndex = 37;
-            this.button2.Text = "Registrar Asistencia";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
             // label_asistencia
             // 
             this.label_asistencia.AutoSize = true;
@@ -110,18 +88,46 @@ namespace Moanso_Piscina
             this.label_asistencia.TabIndex = 36;
             this.label_asistencia.Text = "Asistencia";
             // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.Cornsilk;
+            this.button8.Image = ((System.Drawing.Image)(resources.GetObject("button8.Image")));
+            this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button8.Location = new System.Drawing.Point(311, 60);
+            this.button8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(200, 48);
+            this.button8.TabIndex = 54;
+            this.button8.Text = "REGISTRAR ASISTENCIA";
+            this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button8.UseVisualStyleBackColor = false;
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.Cornsilk;
+            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
+            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button7.Location = new System.Drawing.Point(530, 60);
+            this.button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(178, 48);
+            this.button7.TabIndex = 57;
+            this.button7.Text = "LISTAR ASISTENCIA";
+            this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button7.UseVisualStyleBackColor = false;
+            // 
             // Registrar_Asistencias_Docente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSkyBlue;
             this.ClientSize = new System.Drawing.Size(741, 407);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.button8);
             this.Controls.Add(this.label_listarAsis);
             this.Controls.Add(this.label_dni1);
             this.Controls.Add(this.textBox_dni1);
             this.Controls.Add(this.dataGridView_asistencias);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.label_asistencia);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -135,13 +141,12 @@ namespace Moanso_Piscina
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label_listarAsis;
         private System.Windows.Forms.Label label_dni1;
         private System.Windows.Forms.TextBox textBox_dni1;
         private System.Windows.Forms.DataGridView dataGridView_asistencias;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label_asistencia;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button7;
     }
 }

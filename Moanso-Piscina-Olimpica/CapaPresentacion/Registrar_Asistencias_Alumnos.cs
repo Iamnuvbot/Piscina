@@ -64,6 +64,11 @@ namespace Moanso_Piscina
                 e.Handled = true;  // Ignorar la tecla si se alcanzó la longitud máxima
             }
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
     
 }

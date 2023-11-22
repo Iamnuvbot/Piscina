@@ -13,5 +13,6 @@ namespace CapaEntidad
         public string Fecha { get; set; }
         public string TipoServicio { get; set; }
         public double Monto { get; set; }
+        public string MetododePago { get; set; }
     }
 }

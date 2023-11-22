@@ -1,4 +1,8 @@
-﻿namespace CapaLogica
+﻿using CapaEntidad;
+using CapaDatos;
+using System.Collections.Generic;
+
+namespace CapaLogica
 {
     public class logBoleta
     {
@@ -16,5 +20,24 @@
         }
         #endregion singleton
 
+        #region metodos
+        public void InsertarBoleta(entBoleta boleta)
+        {
+            datBoleta.Instancia.InsertarBoleta(boleta);
+        }
+        public List<entBoleta> ListarBoletas()
+        {
+            return datBoleta.Instancia.ListarBoletas();
+        }
+        public List<entBoleta> BuscarBoletas(string DNI)
+        {
+            return datBoleta.Instancia.BuscarBoletas(DNI);
+        }
+        public void AnularBoleta(string fecha)
+        {
+            datBoleta.Instancia.AnularBoleta(fecha);
+        }
+
+        #endregion metodos
     }
 }

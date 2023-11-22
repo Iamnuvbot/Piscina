@@ -44,6 +44,7 @@
     <Compile Include="datAsistencia.cs" />
     <Compile Include="datAlumno.cs" />
     <Compile Include="Conexion.cs" />
+    <Compile Include="datBoleta.cs" />
     <Compile Include="datDocente.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

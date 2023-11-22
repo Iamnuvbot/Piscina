@@ -47,6 +47,7 @@ namespace Moanso_Piscina
             this.btn_BuscarBoletas = new System.Windows.Forms.Button();
             this.btn_AnularBoletas = new System.Windows.Forms.Button();
             this.monto = new System.Windows.Forms.NumericUpDown();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.monto)).BeginInit();
             this.SuspendLayout();
@@ -218,12 +219,22 @@ namespace Moanso_Piscina
             this.monto.Size = new System.Drawing.Size(120, 20);
             this.monto.TabIndex = 45;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(220, 31);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(74, 13);
+            this.label3.TabIndex = 46;
+            this.label3.Text = "Boleta Emitida";
+            // 
             // RealizarPago
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSkyBlue;
             this.ClientSize = new System.Drawing.Size(835, 404);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.monto);
             this.Controls.Add(this.btn_AnularBoletas);
             this.Controls.Add(this.btn_BuscarBoletas);
@@ -269,5 +280,6 @@ namespace Moanso_Piscina
         private System.Windows.Forms.Button btn_BuscarBoletas;
         private System.Windows.Forms.Button btn_AnularBoletas;
         private System.Windows.Forms.NumericUpDown monto;
+        private System.Windows.Forms.Label label3;
     }
 }

@@ -29,6 +29,7 @@ namespace Moanso_Piscina
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Registrar_Asistencias_Alumnos));
             this.button2 = new System.Windows.Forms.Button();
             this.label_asistencia = new System.Windows.Forms.Label();
             this.dataGridView_asistencias = new System.Windows.Forms.DataGridView();
@@ -122,6 +123,7 @@ namespace Moanso_Piscina
             this.Controls.Add(this.dataGridView_asistencias);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label_asistencia);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Registrar_Asistencias_Alumnos";
             this.Text = "Registrar Asistencia Alumnos";

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ingreso_Monetario));
             this.dgvBoletasDiarias = new System.Windows.Forms.DataGridView();
             this.btnMostrarBoletasD = new System.Windows.Forms.Button();
             this.txtObs = new System.Windows.Forms.TextBox();
@@ -178,6 +179,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnMostrarBoletasD);
             this.Controls.Add(this.dgvBoletasDiarias);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Ingreso_Monetario";
             this.Text = "Ingreso_Monetario";

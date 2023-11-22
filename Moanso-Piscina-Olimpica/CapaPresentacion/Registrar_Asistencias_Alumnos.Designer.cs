@@ -29,6 +29,7 @@ namespace Moanso_Piscina
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Registrar_Asistencias_Alumnos));
             this.button2 = new System.Windows.Forms.Button();
             this.label_asistencia = new System.Windows.Forms.Label();
             this.dataGridView_asistencias = new System.Windows.Forms.DataGridView();
@@ -41,10 +42,10 @@ namespace Moanso_Piscina
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(234, 50);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Location = new System.Drawing.Point(312, 62);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(138, 44);
+            this.button2.Size = new System.Drawing.Size(184, 54);
             this.button2.TabIndex = 6;
             this.button2.Text = "Registrar Asistencia";
             this.button2.UseVisualStyleBackColor = true;
@@ -53,43 +54,47 @@ namespace Moanso_Piscina
             // label_asistencia
             // 
             this.label_asistencia.AutoSize = true;
-            this.label_asistencia.Location = new System.Drawing.Point(273, 35);
+            this.label_asistencia.Location = new System.Drawing.Point(364, 43);
+            this.label_asistencia.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_asistencia.Name = "label_asistencia";
-            this.label_asistencia.Size = new System.Drawing.Size(55, 13);
+            this.label_asistencia.Size = new System.Drawing.Size(69, 16);
             this.label_asistencia.TabIndex = 5;
             this.label_asistencia.Text = "Asistencia";
             // 
             // dataGridView_asistencias
             // 
             this.dataGridView_asistencias.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView_asistencias.Location = new System.Drawing.Point(12, 124);
+            this.dataGridView_asistencias.Location = new System.Drawing.Point(16, 153);
+            this.dataGridView_asistencias.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView_asistencias.Name = "dataGridView_asistencias";
-            this.dataGridView_asistencias.Size = new System.Drawing.Size(524, 191);
+            this.dataGridView_asistencias.RowHeadersWidth = 51;
+            this.dataGridView_asistencias.Size = new System.Drawing.Size(699, 235);
             this.dataGridView_asistencias.TabIndex = 7;
             // 
             // label_dni1
             // 
             this.label_dni1.AutoSize = true;
-            this.label_dni1.Location = new System.Drawing.Point(39, 35);
+            this.label_dni1.Location = new System.Drawing.Point(52, 43);
+            this.label_dni1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_dni1.Name = "label_dni1";
-            this.label_dni1.Size = new System.Drawing.Size(64, 13);
+            this.label_dni1.Size = new System.Drawing.Size(78, 16);
             this.label_dni1.TabIndex = 33;
             this.label_dni1.Text = "DNI Alumno";
             // 
             // textDNI
             // 
-            this.textDNI.Location = new System.Drawing.Point(42, 63);
+            this.textDNI.Location = new System.Drawing.Point(56, 78);
+            this.textDNI.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textDNI.Name = "textDNI";
-            this.textDNI.Size = new System.Drawing.Size(100, 20);
+            this.textDNI.Size = new System.Drawing.Size(132, 22);
             this.textDNI.TabIndex = 32;
-            this.textDNI.TextChanged += new System.EventHandler(this.textDNI_TextChanged);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(398, 50);
-            this.button4.Margin = new System.Windows.Forms.Padding(2);
+            this.button4.Location = new System.Drawing.Point(531, 62);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(138, 44);
+            this.button4.Size = new System.Drawing.Size(184, 54);
             this.button4.TabIndex = 35;
             this.button4.Text = "Listar Asistencias";
             this.button4.UseVisualStyleBackColor = true;
@@ -98,17 +103,19 @@ namespace Moanso_Piscina
             // label_listarAsis
             // 
             this.label_listarAsis.AutoSize = true;
-            this.label_listarAsis.Location = new System.Drawing.Point(395, 35);
+            this.label_listarAsis.Location = new System.Drawing.Point(527, 43);
+            this.label_listarAsis.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_listarAsis.Name = "label_listarAsis";
-            this.label_listarAsis.Size = new System.Drawing.Size(143, 13);
+            this.label_listarAsis.Size = new System.Drawing.Size(181, 16);
             this.label_listarAsis.TabIndex = 34;
             this.label_listarAsis.Text = "Listar Asistencias del Alumno";
             // 
             // Registrar_Asistencias_Alumnos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(559, 339);
+            this.BackColor = System.Drawing.Color.Cornsilk;
+            this.ClientSize = new System.Drawing.Size(745, 417);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label_listarAsis);
             this.Controls.Add(this.label_dni1);
@@ -116,6 +123,8 @@ namespace Moanso_Piscina
             this.Controls.Add(this.dataGridView_asistencias);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label_asistencia);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Registrar_Asistencias_Alumnos";
             this.Text = "Registrar Asistencia Alumnos";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_asistencias)).EndInit();

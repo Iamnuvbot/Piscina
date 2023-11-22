@@ -61,7 +61,8 @@ namespace Moanso_Piscina
         }
         private void btn_AnularBoletas_Click(object sender, EventArgs e)
         {
-            logBoleta.Instancia.AnularBoleta(valorFecha);
+            logBoleta.Instancia.AnularBoleta(ValorID);
+            SetDtgv();
         }
         private void dataGridView1_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -69,23 +70,22 @@ namespace Moanso_Piscina
             int fila = e.RowIndex;
 
             // Obtener el valor de la primera columna de la fila seleccionada
-            string valor = dataGridView1.Rows[fila].Cells[2].Value.ToString();
+            int valor = Convert.ToInt32(dataGridView1.Rows[fila].Cells[0].Value);
 
             // Mostrar el valor en un MessageBox o hacer lo que quieras con él
-            valorFecha = valor;
+            ValorID = valor;
         }
-        private string valorFecha = "";
+        private int ValorID;
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-
             // Obtener el índice de la fila seleccionada
             int fila = e.RowIndex;
 
             // Obtener el valor de la primera columna de la fila seleccionada
-            string valor = dataGridView1.Rows[fila].Cells[2].Value.ToString();
+            int valor = Convert.ToInt32(dataGridView1.Rows[fila].Cells[0].Value);
 
             // Mostrar el valor en un MessageBox o hacer lo que quieras con él
-            valorFecha = valor;
+            ValorID = valor;
         }
     }
 }

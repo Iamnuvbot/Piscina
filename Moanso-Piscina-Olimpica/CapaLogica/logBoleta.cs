@@ -33,9 +33,9 @@ namespace CapaLogica
         {
             return datBoleta.Instancia.BuscarBoletas(DNI);
         }
-        public void AnularBoleta(string fecha)
+        public void AnularBoleta(int ID)
         {
-            datBoleta.Instancia.AnularBoleta(fecha);
+            datBoleta.Instancia.AnularBoleta(ID);
         }
 
         #endregion metodos

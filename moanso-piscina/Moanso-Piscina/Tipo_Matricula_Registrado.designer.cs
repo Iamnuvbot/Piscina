@@ -1,6 +1,6 @@
 ﻿namespace Moanso_Piscina
 {
-    partial class Form2
+    partial class Tipo_Matricula_Registrado
     {
         /// <summary>
         /// Required designer variable.

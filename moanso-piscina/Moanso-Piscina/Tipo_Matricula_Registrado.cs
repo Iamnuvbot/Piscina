@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Moanso_Piscina
 {
-    public partial class Form2 : Form
+    public partial class Tipo_Matricula_Registrado : Form
     {
-        public Form2()
+        public Tipo_Matricula_Registrado()
         {
             InitializeComponent();
         }

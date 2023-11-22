@@ -45,45 +45,51 @@
             // dgvBoletasDiarias
             // 
             this.dgvBoletasDiarias.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvBoletasDiarias.Location = new System.Drawing.Point(12, 12);
+            this.dgvBoletasDiarias.Location = new System.Drawing.Point(16, 15);
+            this.dgvBoletasDiarias.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvBoletasDiarias.Name = "dgvBoletasDiarias";
-            this.dgvBoletasDiarias.Size = new System.Drawing.Size(398, 441);
+            this.dgvBoletasDiarias.RowHeadersWidth = 51;
+            this.dgvBoletasDiarias.Size = new System.Drawing.Size(531, 543);
             this.dgvBoletasDiarias.TabIndex = 0;
             // 
             // btnMostrarBoletasD
             // 
             this.btnMostrarBoletasD.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.btnMostrarBoletasD.Location = new System.Drawing.Point(431, 193);
+            this.btnMostrarBoletasD.Location = new System.Drawing.Point(575, 238);
+            this.btnMostrarBoletasD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMostrarBoletasD.Name = "btnMostrarBoletasD";
-            this.btnMostrarBoletasD.Size = new System.Drawing.Size(171, 76);
+            this.btnMostrarBoletasD.Size = new System.Drawing.Size(228, 94);
             this.btnMostrarBoletasD.TabIndex = 1;
             this.btnMostrarBoletasD.Text = "Registrar ";
             this.btnMostrarBoletasD.UseVisualStyleBackColor = true;
             // 
             // txtObs
             // 
-            this.txtObs.Location = new System.Drawing.Point(660, 172);
+            this.txtObs.Location = new System.Drawing.Point(880, 212);
+            this.txtObs.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtObs.Multiline = true;
             this.txtObs.Name = "txtObs";
-            this.txtObs.Size = new System.Drawing.Size(192, 69);
+            this.txtObs.Size = new System.Drawing.Size(255, 84);
             this.txtObs.TabIndex = 4;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(656, 145);
+            this.label1.Location = new System.Drawing.Point(875, 178);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(219, 24);
+            this.label1.Size = new System.Drawing.Size(275, 29);
             this.label1.TabIndex = 6;
             this.label1.Text = "Observaciónes del día";
             // 
             // btnAplicarObs
             // 
             this.btnAplicarObs.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.btnAplicarObs.Location = new System.Drawing.Point(688, 260);
+            this.btnAplicarObs.Location = new System.Drawing.Point(917, 320);
+            this.btnAplicarObs.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAplicarObs.Name = "btnAplicarObs";
-            this.btnAplicarObs.Size = new System.Drawing.Size(125, 49);
+            this.btnAplicarObs.Size = new System.Drawing.Size(167, 60);
             this.btnAplicarObs.TabIndex = 7;
             this.btnAplicarObs.Text = "Aplicar Observación";
             this.btnAplicarObs.UseVisualStyleBackColor = true;
@@ -91,9 +97,10 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.button1.Location = new System.Drawing.Point(431, 93);
+            this.button1.Location = new System.Drawing.Point(575, 114);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(171, 76);
+            this.button1.Size = new System.Drawing.Size(228, 94);
             this.button1.TabIndex = 1;
             this.button1.Text = "Mostrar Boletas";
             this.button1.UseVisualStyleBackColor = true;
@@ -101,9 +108,10 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(594, 21);
+            this.dateTimePicker1.Location = new System.Drawing.Point(792, 26);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(281, 20);
+            this.dateTimePicker1.Size = new System.Drawing.Size(373, 22);
             this.dateTimePicker1.TabIndex = 8;
             // 
             // btnSalir
@@ -111,9 +119,10 @@
             this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.btnSalir.Image = global::Moanso_Piscina.Properties.Resources.salida;
             this.btnSalir.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnSalir.Location = new System.Drawing.Point(721, 400);
+            this.btnSalir.Location = new System.Drawing.Point(961, 492);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(154, 53);
+            this.btnSalir.Size = new System.Drawing.Size(205, 65);
             this.btnSalir.TabIndex = 3;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
@@ -121,9 +130,10 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.button2.Location = new System.Drawing.Point(431, 377);
+            this.button2.Location = new System.Drawing.Point(575, 464);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(163, 35);
+            this.button2.Size = new System.Drawing.Size(217, 43);
             this.button2.TabIndex = 9;
             this.button2.Text = "Buscar";
             this.button2.UseVisualStyleBackColor = true;
@@ -135,25 +145,28 @@
             "Yape",
             "Plin",
             "EFectivo"});
-            this.comboBox1.Location = new System.Drawing.Point(455, 350);
+            this.comboBox1.Location = new System.Drawing.Point(607, 431);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.Size = new System.Drawing.Size(160, 24);
             this.comboBox1.TabIndex = 10;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(452, 325);
+            this.label2.Location = new System.Drawing.Point(603, 400);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 13);
+            this.label2.Size = new System.Drawing.Size(111, 16);
             this.label2.TabIndex = 11;
             this.label2.Text = "Metodo de Pago:";
             // 
             // Ingreso_Monetario
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(890, 471);
+            this.BackColor = System.Drawing.Color.Cornsilk;
+            this.ClientSize = new System.Drawing.Size(1187, 580);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button2);
@@ -165,6 +178,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnMostrarBoletasD);
             this.Controls.Add(this.dgvBoletasDiarias);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Ingreso_Monetario";
             this.Text = "Ingreso_Monetario";
             ((System.ComponentModel.ISupportInitialize)(this.dgvBoletasDiarias)).EndInit();

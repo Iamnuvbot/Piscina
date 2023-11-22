@@ -46,6 +46,8 @@
     <Compile Include="Conexion.cs" />
     <Compile Include="datBoleta.cs" />
     <Compile Include="datDocente.cs" />
+    <Compile Include="datMatricula.cs" />
+    <Compile Include="datTipoMatricula.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -64,11 +64,6 @@ namespace Moanso_Piscina
                 e.Handled = true;  // Ignorar la tecla si se alcanzó la longitud máxima
             }
         }
-
-        private void textDNI_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
     
 }

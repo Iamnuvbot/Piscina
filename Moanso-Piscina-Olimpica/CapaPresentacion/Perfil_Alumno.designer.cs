@@ -104,7 +104,7 @@
             this.button3.Location = new System.Drawing.Point(13, 395);
             this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(131, 43);
+            this.button3.Size = new System.Drawing.Size(148, 43);
             this.button3.TabIndex = 17;
             this.button3.Text = "INHABILITAR";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -152,10 +152,10 @@
             this.button4.BackColor = System.Drawing.Color.Cornsilk;
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button4.Location = new System.Drawing.Point(223, 329);
+            this.button4.Location = new System.Drawing.Point(207, 329);
             this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(123, 48);
+            this.button4.Size = new System.Drawing.Size(139, 48);
             this.button4.TabIndex = 22;
             this.button4.Text = "CONSULTAR";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;

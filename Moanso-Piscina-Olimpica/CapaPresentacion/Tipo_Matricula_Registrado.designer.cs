@@ -208,10 +208,10 @@
             this.button5.BackColor = System.Drawing.Color.Cornsilk;
             this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
             this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button5.Location = new System.Drawing.Point(214, 258);
+            this.button5.Location = new System.Drawing.Point(194, 258);
             this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(123, 48);
+            this.button5.Size = new System.Drawing.Size(143, 48);
             this.button5.TabIndex = 56;
             this.button5.Text = "CONSULTAR";
             this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -225,7 +225,7 @@
             this.button6.Location = new System.Drawing.Point(4, 324);
             this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(131, 43);
+            this.button6.Size = new System.Drawing.Size(144, 43);
             this.button6.TabIndex = 55;
             this.button6.Text = "INHABILITAR";
             this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;

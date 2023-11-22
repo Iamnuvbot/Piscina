@@ -59,10 +59,10 @@
             this.btnMostrarBoletasD.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.btnMostrarBoletasD.Image = ((System.Drawing.Image)(resources.GetObject("btnMostrarBoletasD.Image")));
             this.btnMostrarBoletasD.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnMostrarBoletasD.Location = new System.Drawing.Point(575, 238);
+            this.btnMostrarBoletasD.Location = new System.Drawing.Point(555, 236);
             this.btnMostrarBoletasD.Margin = new System.Windows.Forms.Padding(4);
             this.btnMostrarBoletasD.Name = "btnMostrarBoletasD";
-            this.btnMostrarBoletasD.Size = new System.Drawing.Size(228, 94);
+            this.btnMostrarBoletasD.Size = new System.Drawing.Size(255, 94);
             this.btnMostrarBoletasD.TabIndex = 1;
             this.btnMostrarBoletasD.Text = "REGISTRAR";
             this.btnMostrarBoletasD.UseVisualStyleBackColor = false;
@@ -96,7 +96,7 @@
             this.btnAplicarObs.Location = new System.Drawing.Point(870, 314);
             this.btnAplicarObs.Margin = new System.Windows.Forms.Padding(4);
             this.btnAplicarObs.Name = "btnAplicarObs";
-            this.btnAplicarObs.Size = new System.Drawing.Size(321, 60);
+            this.btnAplicarObs.Size = new System.Drawing.Size(359, 60);
             this.btnAplicarObs.TabIndex = 7;
             this.btnAplicarObs.Text = "APLICAR OBSERVACION";
             this.btnAplicarObs.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -183,7 +183,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.ClientSize = new System.Drawing.Size(1199, 580);
+            this.ClientSize = new System.Drawing.Size(1242, 580);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button2);

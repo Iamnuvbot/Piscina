@@ -202,10 +202,10 @@
             this.button4.BackColor = System.Drawing.Color.Cornsilk;
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button4.Location = new System.Drawing.Point(241, 306);
+            this.button4.Location = new System.Drawing.Point(241, 296);
             this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(96, 28);
+            this.button4.Size = new System.Drawing.Size(109, 38);
             this.button4.TabIndex = 17;
             this.button4.Text = "BUSCAR";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;

@@ -93,10 +93,10 @@ namespace Moanso_Piscina
             this.button8.BackColor = System.Drawing.Color.Cornsilk;
             this.button8.Image = ((System.Drawing.Image)(resources.GetObject("button8.Image")));
             this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button8.Location = new System.Drawing.Point(311, 60);
+            this.button8.Location = new System.Drawing.Point(285, 60);
             this.button8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(200, 48);
+            this.button8.Size = new System.Drawing.Size(226, 48);
             this.button8.TabIndex = 54;
             this.button8.Text = "REGISTRAR ASISTENCIA";
             this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -110,7 +110,7 @@ namespace Moanso_Piscina
             this.button7.Location = new System.Drawing.Point(530, 60);
             this.button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(178, 48);
+            this.button7.Size = new System.Drawing.Size(199, 48);
             this.button7.TabIndex = 57;
             this.button7.Text = "LISTAR ASISTENCIA";
             this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;

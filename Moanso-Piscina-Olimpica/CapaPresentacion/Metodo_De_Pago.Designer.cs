@@ -116,10 +116,10 @@ namespace Moanso_Piscina
             this.button1.BackColor = System.Drawing.Color.Cornsilk;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.Location = new System.Drawing.Point(484, 53);
+            this.button1.Location = new System.Drawing.Point(471, 43);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(108, 28);
+            this.button1.Size = new System.Drawing.Size(121, 38);
             this.button1.TabIndex = 7;
             this.button1.Text = "AGREGAR";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -130,10 +130,10 @@ namespace Moanso_Piscina
             this.button2.BackColor = System.Drawing.Color.Cornsilk;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.Location = new System.Drawing.Point(484, 98);
+            this.button2.Location = new System.Drawing.Point(471, 89);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(140, 30);
+            this.button2.Size = new System.Drawing.Size(153, 39);
             this.button2.TabIndex = 8;
             this.button2.Text = "DESHABILITAR";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -144,12 +144,13 @@ namespace Moanso_Piscina
             this.button3.BackColor = System.Drawing.Color.Cornsilk;
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.Location = new System.Drawing.Point(484, 150);
+            this.button3.Location = new System.Drawing.Point(471, 136);
             this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(108, 28);
+            this.button3.Size = new System.Drawing.Size(121, 42);
             this.button3.TabIndex = 9;
             this.button3.Text = "EDITAR";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.UseVisualStyleBackColor = false;
             // 
             // Metodo_De_Pago

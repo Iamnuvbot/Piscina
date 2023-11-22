@@ -75,10 +75,10 @@ namespace Moanso_Piscina
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button4.Location = new System.Drawing.Point(37, 384);
+            this.button4.Location = new System.Drawing.Point(6, 384);
             this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(253, 42);
+            this.button4.Size = new System.Drawing.Size(284, 42);
             this.button4.TabIndex = 35;
             this.button4.Text = "CONSULTAR BOLETA POR FECHA";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -90,12 +90,13 @@ namespace Moanso_Piscina
             this.button1.BackColor = System.Drawing.Color.Cornsilk;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.Location = new System.Drawing.Point(53, 314);
+            this.button1.Location = new System.Drawing.Point(27, 314);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(194, 42);
+            this.button1.Size = new System.Drawing.Size(208, 42);
             this.button1.TabIndex = 2;
             this.button1.Text = "GENERAR BOLETA";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -223,7 +224,7 @@ namespace Moanso_Piscina
             this.button3.Location = new System.Drawing.Point(644, 312);
             this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(158, 46);
+            this.button3.Size = new System.Drawing.Size(182, 46);
             this.button3.TabIndex = 43;
             this.button3.Text = "BUSCAR BOLETAS";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -237,7 +238,7 @@ namespace Moanso_Piscina
             this.button2.Location = new System.Drawing.Point(864, 273);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(165, 43);
+            this.button2.Size = new System.Drawing.Size(189, 43);
             this.button2.TabIndex = 44;
             this.button2.Text = "ANULAR BOLETAS";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;

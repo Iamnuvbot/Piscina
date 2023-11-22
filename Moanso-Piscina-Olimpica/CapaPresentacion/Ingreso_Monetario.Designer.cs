@@ -52,13 +52,14 @@
             // 
             // btnMostrarBoletasD
             // 
+            this.btnMostrarBoletasD.BackColor = System.Drawing.SystemColors.ControlDark;
             this.btnMostrarBoletasD.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.btnMostrarBoletasD.Location = new System.Drawing.Point(431, 193);
             this.btnMostrarBoletasD.Name = "btnMostrarBoletasD";
             this.btnMostrarBoletasD.Size = new System.Drawing.Size(171, 76);
             this.btnMostrarBoletasD.TabIndex = 1;
             this.btnMostrarBoletasD.Text = "Registrar ";
-            this.btnMostrarBoletasD.UseVisualStyleBackColor = true;
+            this.btnMostrarBoletasD.UseVisualStyleBackColor = false;
             // 
             // txtObs
             // 
@@ -80,23 +81,25 @@
             // 
             // btnAplicarObs
             // 
+            this.btnAplicarObs.BackColor = System.Drawing.SystemColors.ControlDark;
             this.btnAplicarObs.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.btnAplicarObs.Location = new System.Drawing.Point(688, 260);
             this.btnAplicarObs.Name = "btnAplicarObs";
             this.btnAplicarObs.Size = new System.Drawing.Size(125, 49);
             this.btnAplicarObs.TabIndex = 7;
             this.btnAplicarObs.Text = "Aplicar Observación";
-            this.btnAplicarObs.UseVisualStyleBackColor = true;
+            this.btnAplicarObs.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.button1.Location = new System.Drawing.Point(431, 93);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(171, 76);
             this.button1.TabIndex = 1;
             this.button1.Text = "Mostrar Boletas";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // dateTimePicker1
             // 
@@ -108,6 +111,7 @@
             // 
             // btnSalir
             // 
+            this.btnSalir.BackColor = System.Drawing.SystemColors.ControlDark;
             this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.btnSalir.Image = global::Moanso_Piscina.Properties.Resources.salida;
             this.btnSalir.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -116,17 +120,18 @@
             this.btnSalir.Size = new System.Drawing.Size(154, 53);
             this.btnSalir.TabIndex = 3;
             this.btnSalir.Text = "Salir";
-            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.button2.Location = new System.Drawing.Point(431, 377);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(163, 35);
             this.button2.TabIndex = 9;
             this.button2.Text = "Buscar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // comboBox1
             // 
